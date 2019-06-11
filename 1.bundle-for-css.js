@@ -828,34 +828,29 @@ webpackJsonp([1],{
 
 	  var items = [{ name: "gatsby", url: "https://www.gatsbyjs.org/", comp: _gatsby2.default }, { name: "react", url: "https://reactjs.org/", comp: _react4.default }, { name: "graphql", url: "http://graphql.org/", comp: _graphql2.default }, { name: "jss", url: "http://cssinjs.org/", comp: _jss2.default }, { name: "material-ui", url: "https://material-ui-next.com/", comp: _materialUi2.default }, { name: "redux", url: "https://redux.js.org/", comp: _redux2.default }, { name: "algolia", url: "https://www.algolia.com/", comp: _algolia2.default }, { name: "webpack", url: "https://webpack.js.org/", comp: _webpack2.default }, { name: "babel", url: "https://babeljs.io/", comp: _babel2.default }, { name: "netlify", url: "https://www.netlify.com/", comp: _netlify2.default }];
 
-	  return _react2.default.createElement(
-	    "div",
-	    { className: classes.stack },
-	    _react2.default.createElement(
-	      "h5",
-	      { className: classes.header },
-	      "built with:"
-	    ),
-	    _react2.default.createElement(
-	      "div",
-	      { className: classes.box },
-	      items.map(function (item) {
-	        var Icon = item.comp;
-	        return _react2.default.createElement(
-	          "a",
-	          {
-	            href: item.url,
-	            key: item.name,
-	            className: classes.link,
-	            target: "_blank",
-	            rel: "noopener noreferrer",
-	            title: item.name
-	          },
-	          _react2.default.createElement(Icon, { className: classes.svg })
-	        );
-	      })
-	    )
-	  );
+	  return _react2.default.createElement("div", null)
+
+	  // <div className={classes.stack}>
+	  //   <h5 className={classes.header}>built with:</h5>
+	  //   <div className={classes.box}>
+	  //     {items.map(item => {
+	  //       const Icon = item.comp;
+	  //       return (
+	  //         <a
+	  //           href={item.url}
+	  //           key={item.name}
+	  //           className={classes.link}
+	  //           target="_blank"
+	  //           rel="noopener noreferrer"
+	  //           title={item.name}
+	  //         >
+	  //           <Icon className={classes.svg} />
+	  //         </a>
+	  //       );
+	  //     })}
+	  //   </div>
+	  // </div>
+	  ;
 	};
 
 	StackIcons.propTypes = {

@@ -1,0 +1,2 @@
+webpackJsonp([0x9b544cfa2a85],{797:function(a,e){a.exports={data:{page:{id:"D:/jnk/06112019/ashawebsite1/content/pages/success/index.md absPath of file >>> MarkdownRemark",html:"<p>Thank you. I will answer to the message as soon as possible.</p>",frontmatter:{title:"Success"}},footnote:{id:"D:/jnk/06112019/ashawebsite1/content/parts/footnote.md absPath of file >>> MarkdownRemark",html:""},site:{siteMetadata:{facebook:{appId:""}}}},pathContext:{slug:"/success/"}}}});
+//# sourceMappingURL=path---success-b5ea65c67e52f9b65d69.js.map
