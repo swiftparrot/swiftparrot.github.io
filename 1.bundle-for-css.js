@@ -1,13 +1,13 @@
 webpackJsonp([1],{
 
-/***/ 491:
+/***/ 498:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 
 	exports.__esModule = true;
 
-	var _InfoBox = __webpack_require__(492);
+	var _InfoBox = __webpack_require__(499);
 
 	Object.defineProperty(exports, "default", {
 	  enumerable: true,
@@ -22,7 +22,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 492:
+/***/ 499:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -33,39 +33,39 @@ webpackJsonp([1],{
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _propTypes = __webpack_require__(108);
+	var _propTypes = __webpack_require__(147);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _reactJss = __webpack_require__(251);
+	var _reactJss = __webpack_require__(259);
 
 	var _reactJss2 = _interopRequireDefault(_reactJss);
 
-	var _reactRedux = __webpack_require__(150);
+	var _reactRedux = __webpack_require__(157);
 
-	var _SocialIcons = __webpack_require__(493);
+	var _SocialIcons = __webpack_require__(500);
 
 	var _SocialIcons2 = _interopRequireDefault(_SocialIcons);
 
-	var _InfoMenu = __webpack_require__(497);
+	var _InfoMenu = __webpack_require__(504);
 
 	var _InfoMenu2 = _interopRequireDefault(_InfoMenu);
 
-	var _InfoHeader = __webpack_require__(498);
+	var _InfoHeader = __webpack_require__(505);
 
 	var _InfoHeader2 = _interopRequireDefault(_InfoHeader);
 
-	var _InfoText = __webpack_require__(500);
+	var _InfoText = __webpack_require__(507);
 
 	var _InfoText2 = _interopRequireDefault(_InfoText);
 
-	var _StackIcons = __webpack_require__(501);
+	var _StackIcons = __webpack_require__(508);
 
 	var _StackIcons2 = _interopRequireDefault(_StackIcons);
 
-	var _shared = __webpack_require__(391);
+	var _shared = __webpack_require__(399);
 
-	var _store = __webpack_require__(178);
+	var _store = __webpack_require__(186);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -75,7 +75,7 @@ webpackJsonp([1],{
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	__webpack_require__(512);
+	__webpack_require__(519);
 
 	var styles = function styles(theme) {
 	  var _infoBox;
@@ -205,7 +205,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 493:
+/***/ 500:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -216,27 +216,27 @@ webpackJsonp([1],{
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _propTypes = __webpack_require__(108);
+	var _propTypes = __webpack_require__(147);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _reactJss = __webpack_require__(251);
+	var _reactJss = __webpack_require__(259);
 
 	var _reactJss2 = _interopRequireDefault(_reactJss);
 
-	var _config = __webpack_require__(484);
+	var _config = __webpack_require__(491);
 
 	var _config2 = _interopRequireDefault(_config);
 
-	var _github = __webpack_require__(494);
+	var _github = __webpack_require__(501);
 
 	var _github2 = _interopRequireDefault(_github);
 
-	var _facebook = __webpack_require__(495);
+	var _facebook = __webpack_require__(502);
 
 	var _facebook2 = _interopRequireDefault(_facebook);
 
-	var _twitter = __webpack_require__(496);
+	var _twitter = __webpack_require__(503);
 
 	var _twitter2 = _interopRequireDefault(_twitter);
 
@@ -307,7 +307,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 494:
+/***/ 501:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -325,7 +325,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 495:
+/***/ 502:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -343,7 +343,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 496:
+/***/ 503:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -361,7 +361,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 497:
+/***/ 504:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -372,11 +372,11 @@ webpackJsonp([1],{
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _propTypes = __webpack_require__(108);
+	var _propTypes = __webpack_require__(147);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _reactJss = __webpack_require__(251);
+	var _reactJss = __webpack_require__(259);
 
 	var _reactJss2 = _interopRequireDefault(_reactJss);
 
@@ -453,7 +453,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 498:
+/***/ 505:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -464,11 +464,11 @@ webpackJsonp([1],{
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _propTypes = __webpack_require__(108);
+	var _propTypes = __webpack_require__(147);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _reactJss = __webpack_require__(251);
+	var _reactJss = __webpack_require__(259);
 
 	var _reactJss2 = _interopRequireDefault(_reactJss);
 
@@ -476,19 +476,19 @@ webpackJsonp([1],{
 
 	var _gatsbyLink2 = _interopRequireDefault(_gatsbyLink);
 
-	var _IconButton = __webpack_require__(394);
+	var _IconButton = __webpack_require__(402);
 
 	var _IconButton2 = _interopRequireDefault(_IconButton);
 
-	var _ExpandMore = __webpack_require__(499);
+	var _ExpandMore = __webpack_require__(506);
 
 	var _ExpandMore2 = _interopRequireDefault(_ExpandMore);
 
-	var _avatar2 = __webpack_require__(485);
+	var _avatar2 = __webpack_require__(492);
 
 	var _avatar3 = _interopRequireDefault(_avatar2);
 
-	var _config = __webpack_require__(484);
+	var _config = __webpack_require__(491);
 
 	var _config2 = _interopRequireDefault(_config);
 
@@ -640,12 +640,12 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 499:
+/***/ 506:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 
-	var _interopRequireDefault = __webpack_require__(415);
+	var _interopRequireDefault = __webpack_require__(422);
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -654,7 +654,7 @@ webpackJsonp([1],{
 
 	var _react = _interopRequireDefault(__webpack_require__(1));
 
-	var _createSvgIcon = _interopRequireDefault(__webpack_require__(416));
+	var _createSvgIcon = _interopRequireDefault(__webpack_require__(423));
 
 	var _default = (0, _createSvgIcon.default)(_react.default.createElement("g", null, _react.default.createElement("path", {
 	  d: "M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
@@ -664,7 +664,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 500:
+/***/ 507:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -675,11 +675,11 @@ webpackJsonp([1],{
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _propTypes = __webpack_require__(108);
+	var _propTypes = __webpack_require__(147);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _reactJss = __webpack_require__(251);
+	var _reactJss = __webpack_require__(259);
 
 	var _reactJss2 = _interopRequireDefault(_reactJss);
 
@@ -723,7 +723,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 501:
+/***/ 508:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -734,51 +734,51 @@ webpackJsonp([1],{
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _propTypes = __webpack_require__(108);
+	var _propTypes = __webpack_require__(147);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _reactJss = __webpack_require__(251);
+	var _reactJss = __webpack_require__(259);
 
 	var _reactJss2 = _interopRequireDefault(_reactJss);
 
-	var _algolia = __webpack_require__(502);
+	var _algolia = __webpack_require__(509);
 
 	var _algolia2 = _interopRequireDefault(_algolia);
 
-	var _react3 = __webpack_require__(503);
+	var _react3 = __webpack_require__(510);
 
 	var _react4 = _interopRequireDefault(_react3);
 
-	var _graphql = __webpack_require__(504);
+	var _graphql = __webpack_require__(511);
 
 	var _graphql2 = _interopRequireDefault(_graphql);
 
-	var _jss = __webpack_require__(505);
+	var _jss = __webpack_require__(512);
 
 	var _jss2 = _interopRequireDefault(_jss);
 
-	var _materialUi = __webpack_require__(506);
+	var _materialUi = __webpack_require__(513);
 
 	var _materialUi2 = _interopRequireDefault(_materialUi);
 
-	var _redux = __webpack_require__(507);
+	var _redux = __webpack_require__(514);
 
 	var _redux2 = _interopRequireDefault(_redux);
 
-	var _gatsby = __webpack_require__(508);
+	var _gatsby = __webpack_require__(515);
 
 	var _gatsby2 = _interopRequireDefault(_gatsby);
 
-	var _webpack = __webpack_require__(509);
+	var _webpack = __webpack_require__(516);
 
 	var _webpack2 = _interopRequireDefault(_webpack);
 
-	var _babel = __webpack_require__(510);
+	var _babel = __webpack_require__(517);
 
 	var _babel2 = _interopRequireDefault(_babel);
 
-	var _netlify = __webpack_require__(511);
+	var _netlify = __webpack_require__(518);
 
 	var _netlify2 = _interopRequireDefault(_netlify);
 
@@ -862,7 +862,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 502:
+/***/ 509:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -880,7 +880,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 503:
+/***/ 510:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -898,7 +898,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 504:
+/***/ 511:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -916,7 +916,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 505:
+/***/ 512:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -934,7 +934,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 506:
+/***/ 513:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -952,7 +952,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 507:
+/***/ 514:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -970,7 +970,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 508:
+/***/ 515:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -988,7 +988,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 509:
+/***/ 516:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -1006,7 +1006,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 510:
+/***/ 517:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -1024,7 +1024,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 511:
+/***/ 518:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
