@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Testing]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 26 Jun 2019 01:26:57 GMT</lastBuildDate><item><title><![CDATA[Two things are infinite the universe and human stupidity]]></title><description><![CDATA[Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris…]]></description><link>https://swiftparrot.github.io/two-things-are-infinite/</link><guid isPermaLink="false">https://swiftparrot.github.io/two-things-are-infinite/</guid><content:encoded>&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, &lt;a href=&quot;http://google.com&quot;&gt;adipiscing&lt;/a&gt; eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Testing]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 26 Jun 2019 02:29:05 GMT</lastBuildDate><item><title><![CDATA[Running a sample cypress test]]></title><description><![CDATA[Open the cypress test runner When you are opening the test runner for the very first time in a project, cypress asks you if you some sample…]]></description><link>https://swiftparrot.github.io/running-a-sample-cypress-test/</link><guid isPermaLink="false">https://swiftparrot.github.io/running-a-sample-cypress-test/</guid><content:encoded>&lt;p&gt;Open the cypress test runner&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;npx cypress &lt;span class=&quot;token function&quot;&gt;open&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;When you are opening the test runner for the very first time in a project, cypress asks you if you some sample cypress tests created in your project. This is very useful as it has a lot of example test code. &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/npx-cypress-open-01e9c2c6c5a791539aa7ee38aa9e6db3-7edb1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.569218870843%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUDBAb/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABVOkWjamLoR//xAAbEAABBAMAAAAAAAAAAAAAAAADAAECBBAUNP/aAAgBAQABBQJ5SVYMCD1RYp86/8QAFhEAAwAAAAAAAAAAAAAAAAAAAhAx/9oACAEDAQE/ASi//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAEQABAhAxkf/aAAgBAQAGPwLUZErH7T1//8QAGxAAAQQDAAAAAAAAAAAAAAAAAAERMfFRcfD/2gAIAQEAAT8hpRk6snL4LJ00JB//2gAMAwEAAgADAAAAEJDP/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEhEf/aAAgBAwEBPxCYNZ//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBJ/8QAHxABAAEEAQUAAAAAAAAAAAAAAQARITFBYXGRsdHw/9oACAEBAAE/EBWV2eoeYksZodQ+i8zIajatWo24smDpP//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;npx cypress open window&quot;
+        title=&quot;npx cypress open window&quot;
+        src=&quot;/static/npx-cypress-open-01e9c2c6c5a791539aa7ee38aa9e6db3-78f2b.jpg&quot;
+        srcset=&quot;/static/npx-cypress-open-01e9c2c6c5a791539aa7ee38aa9e6db3-dce19.jpg 200w,
+/static/npx-cypress-open-01e9c2c6c5a791539aa7ee38aa9e6db3-c1413.jpg 400w,
+/static/npx-cypress-open-01e9c2c6c5a791539aa7ee38aa9e6db3-78f2b.jpg 800w,
+/static/npx-cypress-open-01e9c2c6c5a791539aa7ee38aa9e6db3-ab4c4.jpg 1200w,
+/static/npx-cypress-open-01e9c2c6c5a791539aa7ee38aa9e6db3-7edb1.jpg 1293w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Lets run one of those sample tests now
+Click on the file xxxx&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Installing Cypress]]></title><description><![CDATA[I am installing Cypress on Ubuntu 12. Install node from the nodejs website
+ https://nodejs.org/ Open a terminal window 
+Create a new…]]></description><link>https://swiftparrot.github.io/installing-cypress/</link><guid isPermaLink="false">https://swiftparrot.github.io/installing-cypress/</guid><content:encoded>&lt;p&gt;I am installing Cypress on Ubuntu 12.&lt;/p&gt;
+&lt;p&gt;Install node from the nodejs website
+&lt;a href=&quot;https://nodejs.org/&quot;&gt;https://nodejs.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Open a terminal window
+Create a new directory. This is where I will put my first project&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; cypress1
+&lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; cypress1&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Check that node installed correctly&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;node -v
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; -v
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; init&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Install cypress&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; cypress --save-dev&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Two things are infinite the universe and human stupidity]]></title><description><![CDATA[Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris…]]></description><link>https://swiftparrot.github.io/two-things-are-infinite/</link><guid isPermaLink="false">https://swiftparrot.github.io/two-things-are-infinite/</guid><content:encoded>&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, &lt;a href=&quot;http://google.com&quot;&gt;adipiscing&lt;/a&gt; eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;
       &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;a&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
 puts a&lt;/code&gt;&lt;/pre&gt;
@@ -12,44 +73,4 @@ puts a&lt;/code&gt;&lt;/pre&gt;
 &lt;h3&gt;Cras semper consectetur elementum&lt;/h3&gt;
 &lt;p&gt;Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./photo-1490474418585-ba9bad8fd0ea.jpg&quot; alt=&quot;unsplash.com&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Running a sample cypress test]]></title><description><![CDATA[I am installing Cypress on Ubuntu 12. Install node from the nodejs website
- https://nodejs.org/ Open a terminal window 
-Create a new…]]></description><link>https://swiftparrot.github.io/2019-06-24-running-a-sample-cypress-test/</link><guid isPermaLink="false">https://swiftparrot.github.io/2019-06-24-running-a-sample-cypress-test/</guid><content:encoded>&lt;p&gt;I am installing Cypress on Ubuntu 12.&lt;/p&gt;
-&lt;p&gt;Install node from the nodejs website
-&lt;a href=&quot;https://nodejs.org/&quot;&gt;https://nodejs.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Open a terminal window
-Create a new directory. This is where I will put my first project&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; cypress1
-&lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; cypress1&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;Check that node installed correctly&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;node -v
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; -v
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; init&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;Install cypress&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; cypress --save-dev&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Installing Cypress]]></title><description><![CDATA[I am installing Cypress on Ubuntu 12. Install node from the nodejs website
- https://nodejs.org/ Open a terminal window 
-Create a new…]]></description><link>https://swiftparrot.github.io/2019-06-24-installing-cypress/</link><guid isPermaLink="false">https://swiftparrot.github.io/2019-06-24-installing-cypress/</guid><content:encoded>&lt;p&gt;I am installing Cypress on Ubuntu 12.&lt;/p&gt;
-&lt;p&gt;Install node from the nodejs website
-&lt;a href=&quot;https://nodejs.org/&quot;&gt;https://nodejs.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Open a terminal window
-Create a new directory. This is where I will put my first project&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; cypress1
-&lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; cypress1&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;Check that node installed correctly&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;node -v
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; -v
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; init&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;Install cypress&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; cypress --save-dev&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;</content:encoded></item></channel></rss>
