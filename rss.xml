@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Testing]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 26 Jun 2019 02:29:05 GMT</lastBuildDate><item><title><![CDATA[Running a sample cypress test]]></title><description><![CDATA[Open the cypress test runner When you are opening the test runner for the very first time in a project, cypress asks you if you some sample…]]></description><link>https://swiftparrot.github.io/running-a-sample-cypress-test/</link><guid isPermaLink="false">https://swiftparrot.github.io/running-a-sample-cypress-test/</guid><content:encoded>&lt;p&gt;Open the cypress test runner&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Testing]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 27 Jun 2019 02:53:00 GMT</lastBuildDate><item><title><![CDATA[Installing Cypress]]></title><description><![CDATA[I am installing Cypress on Ubuntu 12. Install node from the nodejs website
+ https://nodejs.org/ Open a terminal window 
+Create a new…]]></description><link>https://swiftparrot.github.io/installing-cypress/</link><guid isPermaLink="false">https://swiftparrot.github.io/installing-cypress/</guid><content:encoded>&lt;p&gt;I am installing Cypress on Ubuntu 12.&lt;/p&gt;
+&lt;p&gt;Install node from the nodejs website
+&lt;a href=&quot;https://nodejs.org/&quot;&gt;https://nodejs.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Open a terminal window
+Create a new directory. This is where I will put my first project&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; cypress1
+&lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; cypress1&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Check that node installed correctly&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;node -v
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; -v
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; init&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Install cypress&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; cypress --save-dev&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Running a sample cypress test]]></title><description><![CDATA[I had already installed cypress and its sample tests earlier.
+I can use any editor to see the sample files.
+Here I am using Visual Studio…]]></description><link>https://swiftparrot.github.io/running-a-sample-cypress-test/</link><guid isPermaLink="false">https://swiftparrot.github.io/running-a-sample-cypress-test/</guid><content:encoded>&lt;p&gt;I had already installed cypress and its sample tests earlier.
+I can use any editor to see the sample files.
+Here I am using Visual Studio Code editor to see one of the sample test files, actions.spec.js&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cypress-actions-19fea3fb105634499910f0616d8196b9-fb6d3.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 78.49056603773586%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABzCiGo//EABYQAQEBAAAAAAAAAAAAAAAAAAEQMf/aAAgBAQABBQJrk//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABcQAQEBAQAAAAAAAAAAAAAAAAABEVH/2gAIAQEAAT8hpdbeo4Vj/9oADAMBAAIAAwAAABADD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EIf/xAAbEAACAgMBAAAAAAAAAAAAAAAAARFRIWGRgf/aAAgBAQABPxB+GmNZ+M3OjIZTNCOnwlT4f//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;a sample test file opened in Visual Studio Code&quot;
+        title=&quot;a sample test file opened in Visual Studio Code&quot;
+        src=&quot;/static/cypress-actions-19fea3fb105634499910f0616d8196b9-78f2b.jpg&quot;
+        srcset=&quot;/static/cypress-actions-19fea3fb105634499910f0616d8196b9-dce19.jpg 200w,
+/static/cypress-actions-19fea3fb105634499910f0616d8196b9-c1413.jpg 400w,
+/static/cypress-actions-19fea3fb105634499910f0616d8196b9-78f2b.jpg 800w,
+/static/cypress-actions-19fea3fb105634499910f0616d8196b9-fb6d3.jpg 1060w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Open the cypress test runner&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
       &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;npx cypress &lt;span class=&quot;token function&quot;&gt;open&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
@@ -39,27 +98,46 @@
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;Lets run one of those sample tests now
-Click on the file xxxx&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Installing Cypress]]></title><description><![CDATA[I am installing Cypress on Ubuntu 12. Install node from the nodejs website
- https://nodejs.org/ Open a terminal window 
-Create a new…]]></description><link>https://swiftparrot.github.io/installing-cypress/</link><guid isPermaLink="false">https://swiftparrot.github.io/installing-cypress/</guid><content:encoded>&lt;p&gt;I am installing Cypress on Ubuntu 12.&lt;/p&gt;
-&lt;p&gt;Install node from the nodejs website
-&lt;a href=&quot;https://nodejs.org/&quot;&gt;https://nodejs.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Open a terminal window
-Create a new directory. This is where I will put my first project&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; cypress1
-&lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; cypress1&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;Check that node installed correctly&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;node -v
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; -v
-&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; init&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;Install cypress&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; cypress --save-dev&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Two things are infinite the universe and human stupidity]]></title><description><![CDATA[Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris…]]></description><link>https://swiftparrot.github.io/two-things-are-infinite/</link><guid isPermaLink="false">https://swiftparrot.github.io/two-things-are-infinite/</guid><content:encoded>&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, &lt;a href=&quot;http://google.com&quot;&gt;adipiscing&lt;/a&gt; eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:&lt;/p&gt;
+Click on the file actions.spec.js
+Cypress starts running all the tests in the actions.spec.js file.&lt;/p&gt;
+&lt;p&gt;It opens a chrome window and shows all the test results.
+Each of the tests in the actions.spec.js files runs a particular test against a website.
+The left side of the window shows all the tests that are run.
+The right side shows the actions on the website when each test is run.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cypress-actions-result-bb42b2c554d3744dbc6deb53229d3287-cec11.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.40725806451613%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMCBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHbg2iNEh//xAAaEAACAgMAAAAAAAAAAAAAAAAAAgETAxAR/9oACAEBAAEFApVWKkK41OVu2sf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAABBAMAAAAAAAAAAAAAAAABAAIQkSEyM//aAAgBAQAGPwLIBWjaXNtQY//EAB0QAAEDBQEAAAAAAAAAAAAAAAABEVEQITFxkfH/2gAIAQEAAT8hsjZKHgKpQtNmDXw//9oADAMBAAIAAwAAABBjD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQACAgMBAAAAAAAAAAAAAAEAEUGRITFh8P/aAAgBAQABPxCkEKwJqc+P4xG1rRh3cFFURtPeX//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;cypress-action.spec test results&quot;
+        title=&quot;cypress-action.spec test results&quot;
+        src=&quot;/static/cypress-actions-result-bb42b2c554d3744dbc6deb53229d3287-78f2b.jpg&quot;
+        srcset=&quot;/static/cypress-actions-result-bb42b2c554d3744dbc6deb53229d3287-dce19.jpg 200w,
+/static/cypress-actions-result-bb42b2c554d3744dbc6deb53229d3287-c1413.jpg 400w,
+/static/cypress-actions-result-bb42b2c554d3744dbc6deb53229d3287-78f2b.jpg 800w,
+/static/cypress-actions-result-bb42b2c554d3744dbc6deb53229d3287-cec11.jpg 992w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Two things are infinite the universe and human stupidity]]></title><description><![CDATA[Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris…]]></description><link>https://swiftparrot.github.io/two-things-are-infinite/</link><guid isPermaLink="false">https://swiftparrot.github.io/two-things-are-infinite/</guid><content:encoded>&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, &lt;a href=&quot;http://google.com&quot;&gt;adipiscing&lt;/a&gt; eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;
       &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;a&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
 puts a&lt;/code&gt;&lt;/pre&gt;
