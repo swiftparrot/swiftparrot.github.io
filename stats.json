@@ -1,16 +1,20 @@
 {
   "assetsByChunkName": {
+    "path---frontend-backdend-restapi-json-a-quick-look": [
+      "path---frontend-backdend-restapi-json-a-quick-look-97f5cffe0c56ba65c8db.js",
+      "path---frontend-backdend-restapi-json-a-quick-look-97f5cffe0c56ba65c8db.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-aa9570313651ef926b5a.js",
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
     "path---understanding-json": [
-      "path---understanding-json-54e9c46e3a95ecf7d3c7.js",
-      "path---understanding-json-54e9c46e3a95ecf7d3c7.js.map"
+      "path---understanding-json-3c6b53dbb3fc3e6dea2e.js",
+      "path---understanding-json-3c6b53dbb3fc3e6dea2e.js.map"
     ],
     "path---": [
-      "path----e02b708fdc0beb38c570.js",
-      "path----e02b708fdc0beb38c570.js.map"
+      "path----1f0d10fcce2e6cb0d28b.js",
+      "path----1f0d10fcce2e6cb0d28b.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-d72d65c7809ee08ee22a.js",
@@ -25,8 +29,8 @@
       "path---two-things-are-infinite-33e3139a8478ae12fdcc.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-63c2f602f02a4d4db267.js",
-      "component---src-layouts-index-js-63c2f602f02a4d4db267.js.map"
+      "component---src-layouts-index-js-8db5efc972f0a5753c9f.js",
+      "component---src-layouts-index-js-8db5efc972f0a5753c9f.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -71,9 +75,9 @@
       "path---starters-5b9f1098a5c07c9ed486.js.map"
     ],
     "app": [
-      "app-216985d3f73929ced9a0.js",
+      "app-1125bf7dd550e44a7c1c.js",
       "build-js-styles.css",
-      "app-216985d3f73929ced9a0.js.map",
+      "app-1125bf7dd550e44a7c1c.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [

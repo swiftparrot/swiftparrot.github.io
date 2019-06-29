@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Testing]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 28 Jun 2019 01:24:44 GMT</lastBuildDate><item><title><![CDATA[Understanding JSON]]></title><description><![CDATA[JSON (Javascript Object Notation) is a simple way to send and receive data between computer systems and applications. JSON is a string of…]]></description><link>https://swiftparrot.github.io/understanding-json/</link><guid isPermaLink="false">https://swiftparrot.github.io/understanding-json/</guid><content:encoded>&lt;p&gt;JSON (Javascript Object Notation) is a simple way to send and receive data between computer systems and applications. JSON is a string of plain text. Using a simple format, I can easily store numbers, arrays, strings, objects etc. This is one of the most common ways to send data between the browser and the server. &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Testing]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 29 Jun 2019 14:55:53 GMT</lastBuildDate><item><title><![CDATA[FrontEnd, BackEnd, Http REST Api, JSON - A Quick look]]></title><description><![CDATA[Most web and mobile software applications have a few high level components. Let me explain the concepts of FrontEnd, BackEnd, HttpRest and…]]></description><link>https://swiftparrot.github.io/frontend -backdend-restapi-json-a- quick-look/</link><guid isPermaLink="false">https://swiftparrot.github.io/frontend -backdend-restapi-json-a- quick-look/</guid><content:encoded>&lt;p&gt;Most web and mobile software applications have a few high level components. Let me explain the concepts of FrontEnd, BackEnd, HttpRest and JsonData&lt;/p&gt;
+&lt;p&gt;Imagine yourself in a restuarant having a relaxing dinner.
+When you came in you are greeted by the cheerful wait staff.You are
+seated at a table and given a menucard so that you can order your favorite
+food. You chose any item that you like. The wait staff took your order and he writes it on a ordercard.
+Now you are waiting. Wait staff took your order to the chef in the kitchen.
+The chef is preparing the food which involves a lot of steps and skills.
+The food is ready in a bit and the wait staff brings the food to you.
+You got your order and you enjoy it.&lt;/p&gt;
+&lt;p&gt;In this scenario, &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Menucard is the FrontEnd&lt;/li&gt;
+&lt;li&gt;Chef and KitchenStaff is the Backend&lt;/li&gt;
+&lt;li&gt;WaitStaff is the HttpRequestAndResposes&lt;/li&gt;
+&lt;li&gt;OrderCard and the Food is the JsonData.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Basically, the FrontEnd communicates with the Backend through HttpRequestAndResposes. JsonData is the actual information that is send back and forth through HttpRequestAndResponses. &lt;/p&gt;
+&lt;p&gt; Let us look at another scenario.You are at home trying to find an item online at Amazon website..
+You typed all the necessary details in to the browser.
+You wait to see if it is available. After a few minutes you see that it is available.
+Now you order the item by clicking the “Buy” button. When you click the Buy button, the order information is sent to Amazon’s  computers and database. After a few seconds, you see an OrderConfirmation and OrderNumber on the screen.
+What is happening here? How did the browser get the information? How did it place the order?&lt;/p&gt;
+&lt;p&gt;In this scenario, &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The User Interace (UI) screens and pages that is displayed ..is the FrontEnd&lt;/li&gt;
+&lt;li&gt;Amazon’s computers and database is the Backend&lt;/li&gt;
+&lt;li&gt;The data is sent from the frontend to the backend using Http REST request/responses.
+If you open Chrome Developer tools, you can see these Http REST calls.&lt;/li&gt;
+&lt;li&gt;You can also the JSON data that is carried in those Http Requests and Responses.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Understanding JSON]]></title><description><![CDATA[JSON (Javascript Object Notation) is a simple way to send and receive data between computer systems and applications. JSON is a string of…]]></description><link>https://swiftparrot.github.io/understanding-json/</link><guid isPermaLink="false">https://swiftparrot.github.io/understanding-json/</guid><content:encoded>&lt;p&gt;JSON (Javascript Object Notation) is a simple way to send and receive data between computer systems and applications. JSON is a string of plain text. Using a simple format, I can easily store numbers, arrays, strings, objects etc. This is one of the most common ways to send data between the browser and the server. &lt;/p&gt;
 &lt;p&gt;Usually frontend and backend will communicate through HTTP requests using GET, POST, DELETE operations. The requests and response data is usually in JSON format.&lt;/p&gt;
 &lt;p&gt;Let us see how to represent a simple user object in JSON format.
 The user has two fields -  firstName and lastName. Each of the fields is represented by a key and value. &lt;/p&gt;
