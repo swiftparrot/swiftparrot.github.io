@@ -1,4 +1,191 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Testing]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 29 Jun 2019 14:55:53 GMT</lastBuildDate><item><title><![CDATA[FrontEnd, BackEnd, Http REST Api, JSON - A Quick look]]></title><description><![CDATA[Most web and mobile software applications have a few high level components. Let me explain the concepts of FrontEnd, BackEnd, HttpRest and…]]></description><link>https://swiftparrot.github.io/frontend -backdend-restapi-json-a- quick-look/</link><guid isPermaLink="false">https://swiftparrot.github.io/frontend -backdend-restapi-json-a- quick-look/</guid><content:encoded>&lt;p&gt;Most web and mobile software applications have a few high level components. Let me explain the concepts of FrontEnd, BackEnd, HttpRest and JsonData&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Testing]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 29 Jun 2019 19:36:06 GMT</lastBuildDate><item><title><![CDATA[Http GET,POST,PUT,DELETE]]></title><description><![CDATA[Here is an online TODO web application.
+It can be used to keep a list of things to do. 
+ You can See a list of todos Add a new item to the…]]></description><link>https://swiftparrot.github.io/http-get-post-put-delete/</link><guid isPermaLink="false">https://swiftparrot.github.io/http-get-post-put-delete/</guid><content:encoded>&lt;p&gt;Here is an online TODO web application.
+It can be used to keep a list of things to do.
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/todos-343955e88ab37c2a4bda662cda083cdb-e2024.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 679px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 69.36671575846835%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3qBB/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGBAAAwEBAAAAAAAAAAAAAAAAARARAGH/2gAIAQEAAT8hDiAl7v/aAAwDAQACAAMAAAAQ0M//xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAgBAwEBPxBX/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAQACAgMAAAAAAAAAAAAAAREAECExYaHh/9oACAEBAAE/EH2RJxoRWIxj4whW6udtX18z/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;TODO web application&quot;
+        title=&quot;TODO web application&quot;
+        src=&quot;/static/todos-343955e88ab37c2a4bda662cda083cdb-e2024.jpg&quot;
+        srcset=&quot;/static/todos-343955e88ab37c2a4bda662cda083cdb-4f5f7.jpg 200w,
+/static/todos-343955e88ab37c2a4bda662cda083cdb-c674a.jpg 400w,
+/static/todos-343955e88ab37c2a4bda662cda083cdb-e2024.jpg 679w&quot;
+        sizes=&quot;(max-width: 679px) 100vw, 679px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;You can&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;See a list of todos&lt;/li&gt;
+&lt;li&gt;Add a new item to the list&lt;/li&gt;
+&lt;li&gt;Modify the description of an existing item&lt;/li&gt;
+&lt;li&gt;Delete an item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For each of the above operations, the frontend code sends an HTTP request to the backend.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;See a list of todos - Frontend sends a HTTP GET request&lt;/li&gt;
+&lt;li&gt;Add a new item to the list - Frontend sends a HTTP POST request with the item   description in its body&lt;/li&gt;
+&lt;li&gt;Modify the description of an existing item - Frontend sends a HTTP PUT request with the modified description in its body&lt;/li&gt;
+&lt;li&gt;Delete an item - Frontend sends a HTTP DELETE request.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For some of the HTTP requests, additional data is sent along with the request. This data is usually in JSON format. &lt;/p&gt;
+&lt;p&gt;HTTP GET request and response (using POSTMAN tool)
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/todos-get-77b617a08183cf4ea354c6bc4e8473ca-9624d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 728px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 89.56043956043956%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3LaRQoAf/8QAFRABAQAAAAAAAAAAAAAAAAAAETD/2gAIAQEAAQUCI//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEABj8CH//EABkQAAEFAAAAAAAAAAAAAAAAABEAARAg8P/aAAgBAQABPyGAwRe3/9oADAMBAAIAAwAAABDQCAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAdEAACAgEFAAAAAAAAAAAAAAAAAREhkRAxUWHw/9oACAEBAAE/EE0yowJPhYJdBUKEWX5C2Wv/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;HTTP GET&quot;
+        title=&quot;HTTP GET&quot;
+        src=&quot;/static/todos-get-77b617a08183cf4ea354c6bc4e8473ca-9624d.jpg&quot;
+        srcset=&quot;/static/todos-get-77b617a08183cf4ea354c6bc4e8473ca-997ac.jpg 200w,
+/static/todos-get-77b617a08183cf4ea354c6bc4e8473ca-80dc7.jpg 400w,
+/static/todos-get-77b617a08183cf4ea354c6bc4e8473ca-9624d.jpg 728w&quot;
+        sizes=&quot;(max-width: 728px) 100vw, 728px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;HTTP POST request and response (using POSTMAN tool)
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/todos-post-29eae78a7c22120be29fc5a4e5168746-9624d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 728px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 80.63186813186812%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe5pSKP/xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAEFAl//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAYEAACAwAAAAAAAAAAAAAAAAAAIRARUf/aAAgBAQABPyGhjHk//9oADAMBAAIAAwAAABCTD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAAMAAgMAAAAAAAAAAAAAAAABESFRkaHw/9oACAEBAAE/EKTqb4F7CbdCZZMn/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;HTTP POST&quot;
+        title=&quot;HTTP POST&quot;
+        src=&quot;/static/todos-post-29eae78a7c22120be29fc5a4e5168746-9624d.jpg&quot;
+        srcset=&quot;/static/todos-post-29eae78a7c22120be29fc5a4e5168746-997ac.jpg 200w,
+/static/todos-post-29eae78a7c22120be29fc5a4e5168746-80dc7.jpg 400w,
+/static/todos-post-29eae78a7c22120be29fc5a4e5168746-9624d.jpg 728w&quot;
+        sizes=&quot;(max-width: 728px) 100vw, 728px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;HTTP PUT request and response (using POSTMAN tool)
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/todos-put-ecfd9211f5f13c9df9d10f691897e26a-ad967.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 722px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 86.01108033240997%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe5pSKFAD//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEAAQUCH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEABj8CH//EABkQAAIDAQAAAAAAAAAAAAAAAAARASAhUf/aAAgBAQABPyFGmjnlv//aAAwDAQACAAMAAAAQkwgA/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAHRAAAgIBBQAAAAAAAAAAAAAAAAERIRAxUZGh8P/aAAgBAQABPxCScpvgXsEbuhCssWmf/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;HTTP PUT&quot;
+        title=&quot;HTTP PUT&quot;
+        src=&quot;/static/todos-put-ecfd9211f5f13c9df9d10f691897e26a-ad967.jpg&quot;
+        srcset=&quot;/static/todos-put-ecfd9211f5f13c9df9d10f691897e26a-fcd39.jpg 200w,
+/static/todos-put-ecfd9211f5f13c9df9d10f691897e26a-1b616.jpg 400w,
+/static/todos-put-ecfd9211f5f13c9df9d10f691897e26a-ad967.jpg 722w&quot;
+        sizes=&quot;(max-width: 722px) 100vw, 722px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;HTTP DELETE request and response (using POSTMAN tool)
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/todos-delete-1256c3af340ea1b6c86632fe84a3f2ba-27550.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 726px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 89.80716253443526%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3apFCgB//8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQABBQIf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwIf/8QAGRAAAgMBAAAAAAAAAAAAAAAAACEBESBR/9oACAEBAAE/IakY+j1//9oADAMBAAIAAwAAABAzCAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAdEAACAQQDAAAAAAAAAAAAAAAAAREQITGRYaHx/9oACAEBAAE/EFJKb0Ln0R4CccLZcuLFf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;HTTP DELETE&quot;
+        title=&quot;HTTP DELETE&quot;
+        src=&quot;/static/todos-delete-1256c3af340ea1b6c86632fe84a3f2ba-27550.jpg&quot;
+        srcset=&quot;/static/todos-delete-1256c3af340ea1b6c86632fe84a3f2ba-ff6bb.jpg 200w,
+/static/todos-delete-1256c3af340ea1b6c86632fe84a3f2ba-5a0d4.jpg 400w,
+/static/todos-delete-1256c3af340ea1b6c86632fe84a3f2ba-27550.jpg 726w&quot;
+        sizes=&quot;(max-width: 726px) 100vw, 726px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[FrontEnd, BackEnd, Http REST Api, JSON - A Quick look]]></title><description><![CDATA[Most web and mobile software applications have a few high level components. Let me explain the concepts of FrontEnd, BackEnd, HttpRest and…]]></description><link>https://swiftparrot.github.io/frontend -backdend-restapi-json-a- quick-look/</link><guid isPermaLink="false">https://swiftparrot.github.io/frontend -backdend-restapi-json-a- quick-look/</guid><content:encoded>&lt;p&gt;Most web and mobile software applications have a few high level components. Let me explain the concepts of FrontEnd, BackEnd, HttpRest and JsonData&lt;/p&gt;
 &lt;p&gt;Imagine yourself in a restuarant having a relaxing dinner.
 When you came in you are greeted by the cheerful wait staff.You are
 seated at a table and given a menucard so that you can order your favorite

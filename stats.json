@@ -13,8 +13,8 @@
       "path---understanding-json-3c6b53dbb3fc3e6dea2e.js.map"
     ],
     "path---": [
-      "path----1f0d10fcce2e6cb0d28b.js",
-      "path----1f0d10fcce2e6cb0d28b.js.map"
+      "path----bfadb94911ba3905693b.js",
+      "path----bfadb94911ba3905693b.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-d72d65c7809ee08ee22a.js",
@@ -29,8 +29,8 @@
       "path---two-things-are-infinite-33e3139a8478ae12fdcc.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-8db5efc972f0a5753c9f.js",
-      "component---src-layouts-index-js-8db5efc972f0a5753c9f.js.map"
+      "component---src-layouts-index-js-42dd97ba6866b5abaaab.js",
+      "component---src-layouts-index-js-42dd97ba6866b5abaaab.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -75,9 +75,9 @@
       "path---starters-5b9f1098a5c07c9ed486.js.map"
     ],
     "app": [
-      "app-1125bf7dd550e44a7c1c.js",
+      "app-dcc69ce77c1946e20686.js",
       "build-js-styles.css",
-      "app-1125bf7dd550e44a7c1c.js.map",
+      "app-dcc69ce77c1946e20686.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
@@ -87,6 +87,10 @@
     "path---search": [
       "path---search-84269fabafea3eec14cf.js",
       "path---search-84269fabafea3eec14cf.js.map"
+    ],
+    "path---http-get-post-put-delete": [
+      "path---http-get-post-put-delete-fa6a87e04f23fc5259c9.js",
+      "path---http-get-post-put-delete-fa6a87e04f23fc5259c9.js.map"
     ],
     "path---installing-cypress": [
       "path---installing-cypress-5bf10542f5e5d3fd834a.js",
