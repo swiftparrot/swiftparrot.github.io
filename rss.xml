@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Testing]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 29 Jun 2019 19:36:06 GMT</lastBuildDate><item><title><![CDATA[Http GET,POST,PUT,DELETE]]></title><description><![CDATA[Here is an online TODO web application.
-It can be used to keep a list of things to do. 
- You can See a list of todos Add a new item to the…]]></description><link>https://swiftparrot.github.io/http-get-post-put-delete/</link><guid isPermaLink="false">https://swiftparrot.github.io/http-get-post-put-delete/</guid><content:encoded>&lt;p&gt;Here is an online TODO web application.
-It can be used to keep a list of things to do.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Testing]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 30 Jun 2019 23:06:42 GMT</lastBuildDate><item><title><![CDATA[Http Get, Post, Put, Delete]]></title><description><![CDATA[Here is an online TODO web application. It can be used to keep a list of things to do. 
+ You can See a list of todos Add a new item to the…]]></description><link>https://swiftparrot.github.io/http-get-post-put-delete/</link><guid isPermaLink="false">https://swiftparrot.github.io/http-get-post-put-delete/</guid><content:encoded>&lt;h2&gt;Here is an online TODO web application.&lt;/h2&gt;
+&lt;p&gt;It can be used to keep a list of things to do.
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -46,12 +45,12 @@ It can be used to keep a list of things to do.
 &lt;ul&gt;
 &lt;li&gt;See a list of todos - Frontend sends a HTTP GET request&lt;/li&gt;
 &lt;li&gt;Add a new item to the list - Frontend sends a HTTP POST request with the item   description in its body&lt;/li&gt;
-&lt;li&gt;Modify the description of an existing item - Frontend sends a HTTP PUT request with the modified description in its body&lt;/li&gt;
+&lt;li&gt;Modify the description of an existing item - Frontend sends an HTTP PUT request with the modified description in its body&lt;/li&gt;
 &lt;li&gt;Delete an item - Frontend sends a HTTP DELETE request.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;For some of the HTTP requests, additional data is sent along with the request. This data is usually in JSON format. &lt;/p&gt;
-&lt;p&gt;HTTP GET request and response (using POSTMAN tool)
-
+&lt;h2&gt;HTTP GET request and response (using POSTMAN tool)&lt;/h2&gt;
+&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/todos-get-77b617a08183cf4ea354c6bc4e8473ca-9624d.jpg&quot;
@@ -84,8 +83,8 @@ It can be used to keep a list of things to do.
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;HTTP POST request and response (using POSTMAN tool)
-
+&lt;h2&gt;HTTP POST request and response (using POSTMAN tool)&lt;/h2&gt;
+&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/todos-post-29eae78a7c22120be29fc5a4e5168746-9624d.jpg&quot;
@@ -118,8 +117,8 @@ It can be used to keep a list of things to do.
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;HTTP PUT request and response (using POSTMAN tool)
-
+&lt;h2&gt;HTTP PUT request and response (using POSTMAN tool)&lt;/h2&gt;
+&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/todos-put-ecfd9211f5f13c9df9d10f691897e26a-ad967.jpg&quot;
@@ -152,8 +151,8 @@ It can be used to keep a list of things to do.
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;HTTP DELETE request and response (using POSTMAN tool)
-
+&lt;h2&gt;HTTP DELETE request and response (using POSTMAN tool)&lt;/h2&gt;
+&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/todos-delete-1256c3af340ea1b6c86632fe84a3f2ba-27550.jpg&quot;
@@ -185,31 +184,28 @@ It can be used to keep a list of things to do.
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[FrontEnd, BackEnd, Http REST Api, JSON - A Quick look]]></title><description><![CDATA[Most web and mobile software applications have a few high level components. Let me explain the concepts of FrontEnd, BackEnd, HttpRest and…]]></description><link>https://swiftparrot.github.io/frontend -backdend-restapi-json-a- quick-look/</link><guid isPermaLink="false">https://swiftparrot.github.io/frontend -backdend-restapi-json-a- quick-look/</guid><content:encoded>&lt;p&gt;Most web and mobile software applications have a few high level components. Let me explain the concepts of FrontEnd, BackEnd, HttpRest and JsonData&lt;/p&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Frontend, Backend, Http REST Api, JSON - A Quick look]]></title><description><![CDATA[Most web and mobile software applications have a few high level components. Let me explain the concepts of Frontend, Backend, Http Rest Api…]]></description><link>https://swiftparrot.github.io/frontend -backdend-restapi-json-a- quick-look/</link><guid isPermaLink="false">https://swiftparrot.github.io/frontend -backdend-restapi-json-a- quick-look/</guid><content:encoded>&lt;p&gt;Most web and mobile software applications have a few high level components. Let me explain the concepts of Frontend, Backend, Http Rest Api and Json data.&lt;/p&gt;
 &lt;p&gt;Imagine yourself in a restuarant having a relaxing dinner.
-When you came in you are greeted by the cheerful wait staff.You are
+When you come in, you are greeted by the cheerful wait staff. You are
 seated at a table and given a menucard so that you can order your favorite
-food. You chose any item that you like. The wait staff took your order and he writes it on a ordercard.
-Now you are waiting. Wait staff took your order to the chef in the kitchen.
-The chef is preparing the food which involves a lot of steps and skills.
-The food is ready in a bit and the wait staff brings the food to you.
+food. You chose any item that you like. The wait staff takes your order and he writes it on a ordercard.&lt;/p&gt;
+&lt;p&gt;Now you are waiting. Wait staff took your order to the chef in the kitchen.
+The chef is preparing the food and it involves a lot of steps and skills.
+The food is ready in a while and the wait staff brings the food to you.
 You got your order and you enjoy it.&lt;/p&gt;
 &lt;p&gt;In this scenario, &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Menucard is the FrontEnd&lt;/li&gt;
+&lt;li&gt;Menucard is the Frontend&lt;/li&gt;
 &lt;li&gt;Chef and KitchenStaff is the Backend&lt;/li&gt;
-&lt;li&gt;WaitStaff is the HttpRequestAndResposes&lt;/li&gt;
-&lt;li&gt;OrderCard and the Food is the JsonData.&lt;/li&gt;
+&lt;li&gt;WaitStaff is the Http Request and Responses&lt;/li&gt;
+&lt;li&gt;OrderCard and the Food is the Json data.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Basically, the FrontEnd communicates with the Backend through HttpRequestAndResposes. JsonData is the actual information that is send back and forth through HttpRequestAndResponses. &lt;/p&gt;
-&lt;p&gt; Let us look at another scenario.You are at home trying to find an item online at Amazon website..
-You typed all the necessary details in to the browser.
-You wait to see if it is available. After a few minutes you see that it is available.
-Now you order the item by clicking the “Buy” button. When you click the Buy button, the order information is sent to Amazon’s  computers and database. After a few seconds, you see an OrderConfirmation and OrderNumber on the screen.
-What is happening here? How did the browser get the information? How did it place the order?&lt;/p&gt;
+&lt;p&gt;Basically, the FrontEnd communicates with the Backend through  Http Request and Responses. Json data is the actual information that is sent back and forth through  Http Request and Responses. &lt;/p&gt;
+&lt;p&gt;Let us look at another scenario. You are at home trying to find an item online at Amazon website. You type in the name of the item into the text box on the page on the browser.
+After a few seconds, you see that it is available. Now you order the item by clicking the “Buy” button. When you click the Buy button, the order information is sent to Amazon’s  computers and database. After a few seconds, you see an OrderConfirmation and OrderNumber on the screen.  &lt;/p&gt;
 &lt;p&gt;In this scenario, &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The User Interace (UI) screens and pages that is displayed ..is the FrontEnd&lt;/li&gt;
+&lt;li&gt;The User Interace (UI) screens and pages that is displayed ..is the Frontend&lt;/li&gt;
 &lt;li&gt;Amazon’s computers and database is the Backend&lt;/li&gt;
 &lt;li&gt;The data is sent from the frontend to the backend using Http REST request/responses.
 If you open Chrome Developer tools, you can see these Http REST calls.&lt;/li&gt;
@@ -226,7 +222,7 @@ The user has two fields -  firstName and lastName. Each of the fields is represe
       &lt;/div&gt;
 &lt;p&gt;In the example, the key is “firstName” and the value is “Jane”.
 There is another key “lastName” and its value is “Smith”&lt;/p&gt;
-&lt;p&gt;Now lets add more fields to this user. Lets add a city and state field.
+&lt;p&gt;Now lets add more fields to this user. Lets add a city and state fields.
 The user JSON data now looks like this&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;
       &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -260,7 +256,7 @@ The user JSON data now looks like this&lt;/p&gt;
    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;As you see all the data is represented as key value pairs
+&lt;p&gt;As you see, all the data is represented as key value pairs.
 So “firstName” is the key , and “Jane” is the value
 Also “address” is the key and &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;
@@ -355,7 +351,7 @@ Here I am using Visual Studio Code editor to see one of the sample test files, a
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
       &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;npx cypress &lt;span class=&quot;token function&quot;&gt;open&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;When you are opening the test runner for the very first time in a project, cypress asks you if you some sample cypress tests created in your project. This is very useful as it has a lot of example test code. &lt;/p&gt;
+&lt;p&gt;When you are opening the test runner for the very first time in a project, cypress asks you if you some would like sample cypress tests created in your project. This is very useful as it has a lot of example test code. &lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -431,18 +427,4 @@ The right side shows the actions on the website when each test is run.&lt;/p&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Two things are infinite the universe and human stupidity]]></title><description><![CDATA[Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris…]]></description><link>https://swiftparrot.github.io/two-things-are-infinite/</link><guid isPermaLink="false">https://swiftparrot.github.io/two-things-are-infinite/</guid><content:encoded>&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, &lt;a href=&quot;http://google.com&quot;&gt;adipiscing&lt;/a&gt; eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;
-      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;a&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
-puts a&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;Pellentesque &lt;code class=&quot;language-text&quot;&gt;sed&lt;/code&gt; sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;
-&lt;p&gt;Fusce a metus eu diam varius congue nec nec sapien. Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum.&lt;/p&gt;
-&lt;h3&gt;Cras semper consectetur elementum&lt;/h3&gt;
-&lt;p&gt;Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./photo-1490474418585-ba9bad8fd0ea.jpg&quot; alt=&quot;unsplash.com&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;</content:encoded></item></channel></rss>
+    &lt;/p&gt;</content:encoded></item></channel></rss>
