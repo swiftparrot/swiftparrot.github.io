@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Testing]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 12 Jul 2019 02:06:31 GMT</lastBuildDate><item><title><![CDATA[Test plan,test cases with Arrange-Act-Assert pattern]]></title><description><![CDATA[AAA or Arrange-Act-Assert is the industry standard pattern used to write test cases. So most test cases will contain these three sections of…]]></description><link>https://swiftparrot.github.io/testplan-testcases-arrange-act-assert/</link><guid isPermaLink="false">https://swiftparrot.github.io/testplan-testcases-arrange-act-assert/</guid><content:encoded>&lt;p&gt;AAA or Arrange-Act-Assert is the industry standard pattern used to write test cases. So most test cases will contain these three sections of code- Arrange, Act, Assert. &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Software Testing and Automation]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 12 Jul 2019 02:29:46 GMT</lastBuildDate><item><title><![CDATA[Test plan,test cases with Arrange-Act-Assert pattern]]></title><description><![CDATA[AAA or Arrange-Act-Assert is the industry standard pattern used to write test cases. So most test cases will contain these three sections of…]]></description><link>https://swiftparrot.github.io/testplan-testcases-arrange-act-assert/</link><guid isPermaLink="false">https://swiftparrot.github.io/testplan-testcases-arrange-act-assert/</guid><content:encoded>&lt;p&gt;AAA or Arrange-Act-Assert is the industry standard pattern used to write test cases. So most test cases will contain these three sections of code- Arrange, Act, Assert. &lt;/p&gt;
 &lt;p&gt;Arrange section is where you write to setup the test. This is where you setup all the pre-requisites before the actual test is run. For example, if your test expects specific data to exist in the database, you will need to setup the database with the exact data. &lt;/p&gt;
 &lt;p&gt;Act is the section where perform the actions for the test. For example for a UI test this could be clicking on a button. For an Http REST API test, this could be making the actual API request.&lt;/p&gt;
 &lt;p&gt;Assert is the section where you make sure the test ran with the right results. This is where you verify that the test came back with the data you expected. For example for an UI application, you would check that the color of a box changed when you clicked the button. For an API test, this will be where you verify that the HTTP response came back with a 200 HTTP status code.&lt;/p&gt;
@@ -437,14 +437,14 @@ I dont want to hardcode the ids 1 and 2 in my test. It should delete all Todos i
   
   &lt;/a&gt;
     &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Frontend, Backend, Http REST Api, JSON - A Quick look]]></title><description><![CDATA[Most web and mobile software applications have a few high level components. Let me explain the concepts of Frontend, Backend, Http Rest Api…]]></description><link>https://swiftparrot.github.io/frontend -backdend-restapi-json-a- quick-look/</link><guid isPermaLink="false">https://swiftparrot.github.io/frontend -backdend-restapi-json-a- quick-look/</guid><content:encoded>&lt;p&gt;Most web and mobile software applications have a few high level components. Let me explain the concepts of Frontend, Backend, Http Rest Api and Json data.&lt;/p&gt;
-&lt;p&gt;Imagine yourself in a restuarant having a relaxing dinner.
+&lt;p&gt;Imagine yourself in a restaurant having a relaxing dinner.
 When you come in, you are greeted by the cheerful wait staff. You are
-seated at a table and given a menucard so that you can order your favorite
-food. You chose any item that you like. The wait staff takes your order and he writes it on a ordercard.&lt;/p&gt;
-&lt;p&gt;Now you are waiting. Wait staff took your order to the chef in the kitchen.
-The chef is preparing the food and it involves a lot of steps and skills.
+seated at a table and given a menu card so that you can order your favorite
+food. You chose any item that you like. The wait staff takes your order and he writes it on an ordercard.&lt;/p&gt;
+&lt;p&gt;Now you are waiting. Wait staff takes your order to the chef in the kitchen.
+The chef prepares the food and it involves a lot of steps and skills.
 The food is ready in a while and the wait staff brings the food to you.
-You got your order and you enjoy it.&lt;/p&gt;
+You get your order and you enjoy it.&lt;/p&gt;
 &lt;p&gt;In this scenario, &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Menucard is the Frontend&lt;/li&gt;
@@ -461,7 +461,7 @@ After a few seconds, you see that it is available. Now you order the item by cli
 &lt;li&gt;Amazon’s computers and database is the Backend&lt;/li&gt;
 &lt;li&gt;The data is sent from the frontend to the backend using Http REST request/responses.
 If you open Chrome Developer tools, you can see these Http REST calls.&lt;/li&gt;
-&lt;li&gt;You can also the JSON data that is carried in those Http Requests and Responses.&lt;/li&gt;
+&lt;li&gt;You can also the view the JSON data that is carried in those Http Requests and Responses.&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Understanding JSON]]></title><description><![CDATA[JSON (Javascript Object Notation) is a simple way to send and receive data between computer systems and applications. JSON is a string of…]]></description><link>https://swiftparrot.github.io/understanding-json/</link><guid isPermaLink="false">https://swiftparrot.github.io/understanding-json/</guid><content:encoded>&lt;p&gt;JSON (Javascript Object Notation) is a simple way to send and receive data between computer systems and applications. JSON is a string of plain text. Using a simple format, I can easily store numbers, arrays, strings, objects etc. This is one of the most common ways to send data between the browser and the server. &lt;/p&gt;
 &lt;p&gt;Usually frontend and backend will communicate through HTTP requests using GET, POST, DELETE operations. The requests and response data is usually in JSON format.&lt;/p&gt;
 &lt;p&gt;Let us see how to represent a simple user object in JSON format.

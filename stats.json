@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---frontend-backdend-restapi-json-a-quick-look": [
-      "path---frontend-backdend-restapi-json-a-quick-look-f5be2abeb40c1db65c2f.js",
-      "path---frontend-backdend-restapi-json-a-quick-look-f5be2abeb40c1db65c2f.js.map"
+      "path---frontend-backdend-restapi-json-a-quick-look-8be85b92ecd9f18ad094.js",
+      "path---frontend-backdend-restapi-json-a-quick-look-8be85b92ecd9f18ad094.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-aa9570313651ef926b5a.js",
@@ -49,9 +49,9 @@
       "path---cypress-f97347ff0e77c285d955.js.map"
     ],
     "commons": [
-      "commons-e8d74f737b428d04d96a.js",
+      "commons-d4bf8263b63426d319f0.js",
       "build-js-styles.css",
-      "commons-e8d74f737b428d04d96a.js.map",
+      "commons-d4bf8263b63426d319f0.js.map",
       "build-js-styles.css.map"
     ],
     "path---success": [
@@ -79,9 +79,9 @@
       "path---starters-5b9f1098a5c07c9ed486.js.map"
     ],
     "app": [
-      "app-54ba36a09da83ac75490.js",
+      "app-8fab4979df5a1adf7321.js",
       "build-js-styles.css",
-      "app-54ba36a09da83ac75490.js.map",
+      "app-8fab4979df5a1adf7321.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
