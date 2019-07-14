@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en" prefix="og: http://ogp.me/ns#"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/component---src-layouts-index-js-d5caeadee74e365beb1f.js" as="script"/><link rel="preload" href="/component---src-templates-page-template-js-e0434750f574a9276ef2.js" as="script"/><link rel="preload" href="/path---cypress-ffe8cadbd11a9ccd3ee3.js" as="script"/><link rel="preload" href="/app-c96a1b4aad433022a907.js" as="script"/><link rel="preload" href="/commons-8e3d0f9e6921700276ab.js" as="script"/><style type="text/css" id="server-side-jss">html {
+<!DOCTYPE html><html lang="en" prefix="og: http://ogp.me/ns#"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/component---src-layouts-index-js-d5caeadee74e365beb1f.js" as="script"/><link rel="preload" href="/component---src-templates-page-template-js-e0434750f574a9276ef2.js" as="script"/><link rel="preload" href="/path---cypress-dfa400a85db63971d1df.js" as="script"/><link rel="preload" href="/app-c96a1b4aad433022a907.js" as="script"/><link rel="preload" href="/commons-8e3d0f9e6921700276ab.js" as="script"/><style type="text/css" id="server-side-jss">html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1322,6 +1322,166 @@ expect<span class="token punctuation">(</span><span class="token string">'testin
 expect<span class="token punctuation">(</span><span class="token punctuation">[</span>1, 2, 3<span class="token punctuation">]</span><span class="token punctuation">)</span>.to.include.members<span class="token punctuation">(</span><span class="token punctuation">[</span>3, 2<span class="token punctuation">]</span><span class="token punctuation">)</span>
 expect<span class="token punctuation">(</span>2<span class="token punctuation">)</span>.to.be.oneOf<span class="token punctuation">(</span><span class="token punctuation">[</span>1,2,3<span class="token punctuation">]</span><span class="token punctuation">)</span></code></pre>
       </div>
+<h2>cypress should - .should</h2>
+<div class="gatsby-highlight" data-language="bash">
+      <pre class="language-bash"><code class="language-bash">.should<span class="token punctuation">(</span><span class="token string">'be.visible'</span><span class="token punctuation">)</span>
+
+.should<span class="token punctuation">(</span><span class="token string">'have.class'</span>, <span class="token string">'open'</span><span class="token punctuation">)</span>  
+
+.should<span class="token punctuation">(</span><span class="token string">'contain'</span>, <span class="token string">'Edit User'</span><span class="token punctuation">)</span>
+
+.should<span class="token punctuation">(</span><span class="token string">'have.attr'</span>, <span class="token string">'href'</span><span class="token punctuation">)</span>  
+
+.should<span class="token punctuation">(</span><span class="token string">'match'</span>, /users/<span class="token punctuation">)</span>  
+
+.should<span class="token punctuation">(</span><span class="token string">'not.be.empty'</span><span class="token punctuation">)</span>
+
+.should<span class="token punctuation">(</span><span class="token string">'be.empty'</span><span class="token punctuation">)</span>
+
+.should<span class="token punctuation">(</span><span class="token string">'be.visible'</span><span class="token punctuation">)</span>   
+
+.should<span class="token punctuation">(</span><span class="token string">'have.css'</span>, <span class="token string">'font-family'</span><span class="token punctuation">)</span> 
+
+.should<span class="token punctuation">(</span><span class="token string">'not.have.value'</span>, <span class="token string">'Jane'</span><span class="token punctuation">)</span>
+
+.should<span class="token punctuation">(</span><span class="token string">'have.value'</span>, <span class="token string">'Jane'</span><span class="token punctuation">)</span>
+
+.should<span class="token punctuation">(</span><span class="token string">'have.focus'</span><span class="token punctuation">)</span>
+
+.should<span class="token punctuation">(</span><span class="token string">'have.id'</span>, <span class="token string">'new-user'</span><span class="token punctuation">)</span>
+
+cy.title<span class="token punctuation">(</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'eq'</span>, <span class="token string">'My Awesome Application'</span><span class="token punctuation">)</span>
+cy.title<span class="token punctuation">(</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'include'</span>, <span class="token string">'New User'</span><span class="token punctuation">)</span>
+cy.get<span class="token punctuation">(</span><span class="token string">'.error'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'be.empty'</span><span class="token punctuation">)</span>                    // Assert that <span class="token string">'.error'</span> is empty
+cy.contains<span class="token punctuation">(</span><span class="token string">'Login'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'be.visible'</span><span class="token punctuation">)</span>              // Assert that el is visible
+cy.wrap<span class="token punctuation">(</span><span class="token punctuation">{</span> foo: <span class="token string">'bar'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>.its<span class="token punctuation">(</span><span class="token string">'foo'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'eq'</span>, <span class="token string">'bar'</span><span class="token punctuation">)</span> // Assert the <span class="token string">'foo'</span> property equals <span class="token string">'bar'</span>
+
+In <span class="token function">most</span> cases, .should<span class="token punctuation">(</span><span class="token punctuation">)</span> yields the same subject it was given from the previous command.
+cy
+  .get<span class="token punctuation">(</span><span class="token string">'nav'</span><span class="token punctuation">)</span>                       // yields <span class="token operator">&lt;</span>nav<span class="token operator">></span>
+  .should<span class="token punctuation">(</span><span class="token string">'be.visible'</span><span class="token punctuation">)</span>             // yields <span class="token operator">&lt;</span>nav<span class="token operator">></span>
+
+  However, some chainers change the subject. In the example below, the second .should<span class="token punctuation">(</span><span class="token punctuation">)</span> yields the string sans-serif because the chainer have.css, <span class="token string">'font-family'</span> changes the subject.
+
+cy
+  .get<span class="token punctuation">(</span><span class="token string">'nav'</span><span class="token punctuation">)</span>                          // yields <span class="token operator">&lt;</span>nav<span class="token operator">></span>
+  .should<span class="token punctuation">(</span><span class="token string">'be.visible'</span><span class="token punctuation">)</span>                // yields <span class="token operator">&lt;</span>nav<span class="token operator">></span>
+  .should<span class="token punctuation">(</span><span class="token string">'have.css'</span>, <span class="token string">'font-family'</span><span class="token punctuation">)</span>   // yields <span class="token string">'sans-serif'</span>
+  .and<span class="token punctuation">(</span><span class="token string">'match'</span>, /serif/<span class="token punctuation">)</span>               // yields <span class="token string">'sans-serif'</span>
+
+
+Assert the checkbox is disabled
+cy.get<span class="token punctuation">(</span><span class="token string">':checkbox'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'be.disabled'</span><span class="token punctuation">)</span>
+
+Assert the class is ‘form-horizontal’
+cy.get<span class="token punctuation">(</span><span class="token string">'form'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'have.class'</span>, <span class="token string">'form-horizontal'</span><span class="token punctuation">)</span>
+
+Assert the value is not ‘Jane’
+cy.get<span class="token punctuation">(</span><span class="token string">'input'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'not.have.value'</span>, <span class="token string">'Jane'</span><span class="token punctuation">)</span>
+
+The current subject is yielded
+cy.get<span class="token punctuation">(</span><span class="token string">'button'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'have.id'</span>, <span class="token string">'new-user'</span><span class="token punctuation">)</span>.then<span class="token punctuation">((</span><span class="token variable">$button</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+  // <span class="token variable">$button</span> is yielded
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+Assert the href is equal to ‘/users’
+// have.attr comes from chai-jquery
+cy.get<span class="token punctuation">(</span><span class="token string">'#header a'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'have.attr'</span>, <span class="token string">'href'</span>, <span class="token string">'/users'</span><span class="token punctuation">)</span>
+
+Assert an input is focused after button click
+cy.get<span class="token punctuation">(</span><span class="token string">'#btn-focuses-input'</span><span class="token punctuation">)</span>.click<span class="token punctuation">(</span><span class="token punctuation">)</span>
+cy.get<span class="token punctuation">(</span><span class="token string">'#input-receives-focus'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'have.focus'</span><span class="token punctuation">)</span> // equivalent to should<span class="token punctuation">(</span><span class="token string">'be.focused'</span><span class="token punctuation">)</span>
+
+Verify length, content, and classes from multiple <span class="token operator">&lt;</span>p<span class="token operator">></span>
+<span class="token operator">&lt;</span>div<span class="token operator">></span>
+  <span class="token operator">&lt;</span>p class<span class="token operator">=</span><span class="token string">"text-primary"</span><span class="token operator">></span>Hello World<span class="token operator">&lt;</span>/p<span class="token operator">></span>
+  <span class="token operator">&lt;</span>p class<span class="token operator">=</span><span class="token string">"text-danger"</span><span class="token operator">></span>You have an error<span class="token operator">&lt;</span>/p<span class="token operator">></span>
+  <span class="token operator">&lt;</span>p class<span class="token operator">=</span><span class="token string">"text-default"</span><span class="token operator">></span>Try again later<span class="token operator">&lt;</span>/p<span class="token operator">></span>
+<span class="token operator">&lt;</span>/div<span class="token operator">></span>
+cy
+  .get<span class="token punctuation">(</span><span class="token string">'p'</span><span class="token punctuation">)</span>
+  .should<span class="token variable"><span class="token punctuation">((</span>$p<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> {
+    <span class="token operator">/</span><span class="token operator">/</span> should have found <span class="token number">3</span> elements
+    expect<span class="token punctuation">(</span>$p<span class="token punctuation">)</span>.to.have.length<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>
+
+    <span class="token operator">/</span><span class="token operator">/</span> make sure the first contains some text content
+    expect<span class="token punctuation">(</span>$p.first<span class="token punctuation">(</span><span class="token punctuation">))</span></span>.to.contain<span class="token punctuation">(</span><span class="token string">'Hello World'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token operator">&lt;</span>div class<span class="token operator">=</span><span class="token string">"docs-header"</span><span class="token operator">></span>
+  <span class="token operator">&lt;</span>div class<span class="token operator">=</span><span class="token string">"main-abc123 heading-xyz987"</span><span class="token operator">></span>Introduction<span class="token operator">&lt;</span>/div<span class="token operator">></span>
+<span class="token operator">&lt;</span>/div<span class="token operator">></span>
+cy.get<span class="token punctuation">(</span><span class="token string">'.docs-header'</span><span class="token punctuation">)</span>
+  .find<span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span>
+  // .should<span class="token punctuation">(</span>cb<span class="token punctuation">)</span> callback <span class="token keyword">function</span> will be retried
+  .should<span class="token punctuation">((</span><span class="token variable">$div</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    expect<span class="token punctuation">(</span><span class="token variable">$div</span><span class="token punctuation">)</span>.to.have.length<span class="token punctuation">(</span>1<span class="token punctuation">)</span>
+
+    const className <span class="token operator">=</span> <span class="token variable">$div</span><span class="token punctuation">[</span>0<span class="token punctuation">]</span>.className
+
+    expect<span class="token punctuation">(</span>className<span class="token punctuation">)</span>.to.match<span class="token punctuation">(</span>/heading-/<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  // .then<span class="token punctuation">(</span>cb<span class="token punctuation">)</span> callback is not retried,
+  // it either passes or fails
+  .then<span class="token punctuation">((</span><span class="token variable">$div</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    expect<span class="token punctuation">(</span><span class="token variable">$div</span><span class="token punctuation">)</span>.to.have.text<span class="token punctuation">(</span><span class="token string">'Introduction'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+Example below first asserts that there are 3 elements, and <span class="token keyword">then</span> checks the text contents of each one.
+<span class="token operator">&lt;</span>ul class<span class="token operator">=</span><span class="token string">"connectors-list"</span><span class="token operator">></span>
+  <span class="token operator">&lt;</span>li<span class="token operator">></span>Walk the dog<span class="token operator">&lt;</span>/li<span class="token operator">></span>
+  <span class="token operator">&lt;</span>li<span class="token operator">></span>Feed the cat<span class="token operator">&lt;</span>/li<span class="token operator">></span>
+  <span class="token operator">&lt;</span>li<span class="token operator">></span>Write JavaScript<span class="token operator">&lt;</span>/li<span class="token operator">></span>
+<span class="token operator">&lt;</span>/ul<span class="token operator">></span>
+cy.get<span class="token punctuation">(</span><span class="token string">'.connectors-list > li'</span><span class="token punctuation">)</span>.should<span class="token variable"><span class="token punctuation">((</span>$lis<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> {
+  expect<span class="token punctuation">(</span>$lis<span class="token punctuation">)</span>.to.have.length<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>
+  expect<span class="token punctuation">(</span>$lis.eq<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">))</span></span>.to.contain<span class="token punctuation">(</span><span class="token string">'Walk the dog'</span><span class="token punctuation">)</span>
+  expect<span class="token punctuation">(</span><span class="token variable">$lis</span>.eq<span class="token punctuation">(</span>1<span class="token punctuation">))</span>.to.contain<span class="token punctuation">(</span><span class="token string">'Feed the cat'</span><span class="token punctuation">)</span>
+  expect<span class="token punctuation">(</span><span class="token variable">$lis</span>.eq<span class="token punctuation">(</span>2<span class="token punctuation">))</span>.to.contain<span class="token punctuation">(</span><span class="token string">'Write JavaScript'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+For clarity you can pass a string message as a second argument to any <span class="token function">expect</span> assertion, see Chai<span class="token comment">#expect.</span>
+cy.get<span class="token punctuation">(</span><span class="token string">'.connectors-list > li'</span><span class="token punctuation">)</span>.should<span class="token punctuation">((</span><span class="token variable">$lis</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+  expect<span class="token punctuation">(</span><span class="token variable">$lis</span>, <span class="token string">'3 items'</span><span class="token punctuation">)</span>.to.have.length<span class="token punctuation">(</span>3<span class="token punctuation">)</span>
+  expect<span class="token punctuation">(</span><span class="token variable">$lis</span>.eq<span class="token punctuation">(</span>0<span class="token punctuation">)</span>, <span class="token string">'first item'</span><span class="token punctuation">)</span>.to.contain<span class="token punctuation">(</span><span class="token string">'Walk the dog'</span><span class="token punctuation">)</span>
+  expect<span class="token punctuation">(</span><span class="token variable">$lis</span>.eq<span class="token punctuation">(</span>1<span class="token punctuation">)</span>, <span class="token string">'second item'</span><span class="token punctuation">)</span>.to.contain<span class="token punctuation">(</span><span class="token string">'Feed the cat'</span><span class="token punctuation">)</span>
+  expect<span class="token punctuation">(</span><span class="token variable">$lis</span>.eq<span class="token punctuation">(</span>2<span class="token punctuation">)</span>, <span class="token string">'third item'</span><span class="token punctuation">)</span>.to.contain<span class="token punctuation">(</span><span class="token string">'Write JavaScript'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+Compare text values of two elements
+The example below gets the text contained within one element and saves it <span class="token keyword">in</span> a closure variable. Then the <span class="token function">test</span> gets the text <span class="token keyword">in</span> another element and asserts that the two text values are the same after normalizing.
+
+<span class="token operator">&lt;</span>div class<span class="token operator">=</span><span class="token string">"company-details"</span><span class="token operator">></span>
+  <span class="token operator">&lt;</span>div class<span class="token operator">=</span><span class="token string">"title"</span><span class="token operator">></span>Acme Developers<span class="token operator">&lt;</span>/div<span class="token operator">></span>
+  <span class="token operator">&lt;</span>div class<span class="token operator">=</span><span class="token string">"identifier"</span><span class="token operator">></span>ACMEDEVELOPERS<span class="token operator">&lt;</span>/div<span class="token operator">></span>
+<span class="token operator">&lt;</span>/div<span class="token operator">></span>
+const normalizeText <span class="token operator">=</span> <span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> s.replace<span class="token punctuation">(</span>/\s/g, <span class="token string">''</span><span class="token punctuation">)</span>.toLowerCase<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+// will keep text from title element
+<span class="token keyword">let</span> titleText
+
+cy.get<span class="token punctuation">(</span><span class="token string">'.company-details'</span><span class="token punctuation">)</span>
+  .find<span class="token punctuation">(</span><span class="token string">'.title'</span><span class="token punctuation">)</span>
+  .then<span class="token variable"><span class="token punctuation">((</span>$title<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> {
+    <span class="token operator">/</span><span class="token operator">/</span> save text from the first element
+    titleText <span class="token operator">=</span> normalizeText<span class="token punctuation">(</span>$title.text<span class="token punctuation">(</span><span class="token punctuation">))</span></span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+cy.get<span class="token punctuation">(</span><span class="token string">'.company-details'</span><span class="token punctuation">)</span>
+  .find<span class="token punctuation">(</span><span class="token string">'.identifier'</span><span class="token punctuation">)</span>
+  .should<span class="token variable"><span class="token punctuation">((</span>$identifier<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> {
+    <span class="token operator">/</span><span class="token operator">/</span> we can massage text before comparing
+    const idText <span class="token operator">=</span> normalizeText<span class="token punctuation">(</span>$identifier.text<span class="token punctuation">(</span><span class="token punctuation">))</span></span>
+
+    // text from the title element should already be <span class="token keyword">set</span>
+    expect<span class="token punctuation">(</span>idText, <span class="token string">'ID'</span><span class="token punctuation">)</span>.to.equal<span class="token punctuation">(</span>titleText<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+In this example we use .and<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token function">which</span> is identical to .should<span class="token punctuation">(</span><span class="token punctuation">)</span>.
+// our subject is not changed by our first assertion,
+// so we can <span class="token keyword">continue</span> to use DOM based assertions
+cy.get<span class="token punctuation">(</span><span class="token string">'option:first'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'be.selected'</span><span class="token punctuation">)</span>.and<span class="token punctuation">(</span><span class="token string">'have.value'</span>, <span class="token string">'Metallica'</span><span class="token punctuation">)</span></code></pre>
+      </div>
 <h1>Commands</h1>
 <h2>cypress as - .as</h2>
 <div class="gatsby-highlight" data-language="bash">
@@ -1696,6 +1856,11 @@ cy.get<span class="token punctuation">(</span><span class="token string">'[name=
 Get an input and assert on the value
 cy.get<span class="token punctuation">(</span><span class="token string">'input[name="firstName"]'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'have.value'</span>, <span class="token string">'Homer'</span><span class="token punctuation">)</span>
 
+<span class="token operator">&lt;</span>ul show-authed<span class="token operator">=</span><span class="token string">"false"</span> class<span class="token operator">=</span><span class="token string">"nav navbar-nav pull-xs-right"</span> style<span class="token operator">=</span><span class="token string">"display: inherit;"</span><span class="token operator">></span>
+  <span class="token operator">&lt;</span>li<span class="token operator">></span>Home<span class="token operator">&lt;</span>/li<span class="token operator">></span>
+<span class="token operator">&lt;</span>/ul<span class="token operator">></span>
+cy.get<span class="token punctuation">(</span><span class="token string">'[show-authed="false"]'</span><span class="token punctuation">)</span>.contains<span class="token punctuation">(</span><span class="token string">'Home'</span><span class="token punctuation">)</span>
+
 Get the input element
 cy.get<span class="token punctuation">(</span><span class="token string">'input'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'be.disabled'</span><span class="token punctuation">)</span>
 
@@ -1706,7 +1871,10 @@ Find the dropdown-menu and click it
 cy.get<span class="token punctuation">(</span><span class="token string">'.dropdown-menu'</span><span class="token punctuation">)</span>.click<span class="token punctuation">(</span><span class="token punctuation">)</span>
 
 Find 5 elements with the given data attribute
-cy.get<span class="token punctuation">(</span><span class="token string">'[data-test-id="test-example"]'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'have.length'</span>, 5<span class="token punctuation">)</span></code></pre>
+cy.get<span class="token punctuation">(</span><span class="token string">'[data-test-id="test-example"]'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'have.length'</span>, 5<span class="token punctuation">)</span>
+
+Finding elements with two classes
+cy.get<span class="token punctuation">(</span><span class="token string">'.logo-font.ng-binding'</span><span class="token punctuation">)</span>.contains<span class="token punctuation">(</span><span class="token string">'conduit'</span><span class="token punctuation">)</span></code></pre>
       </div>
 <h2>cypress its - .its</h2>
 <div class="gatsby-highlight" data-language="bash">
@@ -2029,164 +2197,6 @@ cy.get<span class="token punctuation">(</span><span class="token string">'select
 Select the option with the text “Homer Simpson”
 cy.get<span class="token punctuation">(</span><span class="token string">'select'</span><span class="token punctuation">)</span>.select<span class="token punctuation">(</span><span class="token string">'Homer Simpson'</span><span class="token punctuation">)</span></code></pre>
       </div>
-<h2>cypress should - .should</h2>
-<div class="gatsby-highlight" data-language="bash">
-      <pre class="language-bash"><code class="language-bash">.should<span class="token punctuation">(</span><span class="token string">'be.visible'</span><span class="token punctuation">)</span>
-
-.should<span class="token punctuation">(</span><span class="token string">'have.class'</span>, <span class="token string">'open'</span><span class="token punctuation">)</span>  
-
-.should<span class="token punctuation">(</span><span class="token string">'contain'</span>, <span class="token string">'Edit User'</span><span class="token punctuation">)</span>
-
-.should<span class="token punctuation">(</span><span class="token string">'have.attr'</span>, <span class="token string">'href'</span><span class="token punctuation">)</span>  
-
-.should<span class="token punctuation">(</span><span class="token string">'match'</span>, /users/<span class="token punctuation">)</span>  
-
-.should<span class="token punctuation">(</span><span class="token string">'not.be.empty'</span><span class="token punctuation">)</span>
-
-.should<span class="token punctuation">(</span><span class="token string">'be.empty'</span><span class="token punctuation">)</span>
-
-.should<span class="token punctuation">(</span><span class="token string">'be.visible'</span><span class="token punctuation">)</span>   
-
-.should<span class="token punctuation">(</span><span class="token string">'have.css'</span>, <span class="token string">'font-family'</span><span class="token punctuation">)</span> 
-
-.should<span class="token punctuation">(</span><span class="token string">'not.have.value'</span>, <span class="token string">'Jane'</span><span class="token punctuation">)</span>
-
-.should<span class="token punctuation">(</span><span class="token string">'have.value'</span>, <span class="token string">'Jane'</span><span class="token punctuation">)</span>
-
-.should<span class="token punctuation">(</span><span class="token string">'have.focus'</span><span class="token punctuation">)</span>
-
-.should<span class="token punctuation">(</span><span class="token string">'have.id'</span>, <span class="token string">'new-user'</span><span class="token punctuation">)</span>
-
-cy.get<span class="token punctuation">(</span><span class="token string">'.error'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'be.empty'</span><span class="token punctuation">)</span>                    // Assert that <span class="token string">'.error'</span> is empty
-cy.contains<span class="token punctuation">(</span><span class="token string">'Login'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'be.visible'</span><span class="token punctuation">)</span>              // Assert that el is visible
-cy.wrap<span class="token punctuation">(</span><span class="token punctuation">{</span> foo: <span class="token string">'bar'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>.its<span class="token punctuation">(</span><span class="token string">'foo'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'eq'</span>, <span class="token string">'bar'</span><span class="token punctuation">)</span> // Assert the <span class="token string">'foo'</span> property equals <span class="token string">'bar'</span>
-
-In <span class="token function">most</span> cases, .should<span class="token punctuation">(</span><span class="token punctuation">)</span> yields the same subject it was given from the previous command.
-cy
-  .get<span class="token punctuation">(</span><span class="token string">'nav'</span><span class="token punctuation">)</span>                       // yields <span class="token operator">&lt;</span>nav<span class="token operator">></span>
-  .should<span class="token punctuation">(</span><span class="token string">'be.visible'</span><span class="token punctuation">)</span>             // yields <span class="token operator">&lt;</span>nav<span class="token operator">></span>
-
-  However, some chainers change the subject. In the example below, the second .should<span class="token punctuation">(</span><span class="token punctuation">)</span> yields the string sans-serif because the chainer have.css, <span class="token string">'font-family'</span> changes the subject.
-
-cy
-  .get<span class="token punctuation">(</span><span class="token string">'nav'</span><span class="token punctuation">)</span>                          // yields <span class="token operator">&lt;</span>nav<span class="token operator">></span>
-  .should<span class="token punctuation">(</span><span class="token string">'be.visible'</span><span class="token punctuation">)</span>                // yields <span class="token operator">&lt;</span>nav<span class="token operator">></span>
-  .should<span class="token punctuation">(</span><span class="token string">'have.css'</span>, <span class="token string">'font-family'</span><span class="token punctuation">)</span>   // yields <span class="token string">'sans-serif'</span>
-  .and<span class="token punctuation">(</span><span class="token string">'match'</span>, /serif/<span class="token punctuation">)</span>               // yields <span class="token string">'sans-serif'</span>
-
-
-Assert the checkbox is disabled
-cy.get<span class="token punctuation">(</span><span class="token string">':checkbox'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'be.disabled'</span><span class="token punctuation">)</span>
-
-Assert the class is ‘form-horizontal’
-cy.get<span class="token punctuation">(</span><span class="token string">'form'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'have.class'</span>, <span class="token string">'form-horizontal'</span><span class="token punctuation">)</span>
-
-Assert the value is not ‘Jane’
-cy.get<span class="token punctuation">(</span><span class="token string">'input'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'not.have.value'</span>, <span class="token string">'Jane'</span><span class="token punctuation">)</span>
-
-The current subject is yielded
-cy.get<span class="token punctuation">(</span><span class="token string">'button'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'have.id'</span>, <span class="token string">'new-user'</span><span class="token punctuation">)</span>.then<span class="token punctuation">((</span><span class="token variable">$button</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
-  // <span class="token variable">$button</span> is yielded
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-Assert the href is equal to ‘/users’
-// have.attr comes from chai-jquery
-cy.get<span class="token punctuation">(</span><span class="token string">'#header a'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'have.attr'</span>, <span class="token string">'href'</span>, <span class="token string">'/users'</span><span class="token punctuation">)</span>
-
-Assert an input is focused after button click
-cy.get<span class="token punctuation">(</span><span class="token string">'#btn-focuses-input'</span><span class="token punctuation">)</span>.click<span class="token punctuation">(</span><span class="token punctuation">)</span>
-cy.get<span class="token punctuation">(</span><span class="token string">'#input-receives-focus'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'have.focus'</span><span class="token punctuation">)</span> // equivalent to should<span class="token punctuation">(</span><span class="token string">'be.focused'</span><span class="token punctuation">)</span>
-
-Verify length, content, and classes from multiple <span class="token operator">&lt;</span>p<span class="token operator">></span>
-<span class="token operator">&lt;</span>div<span class="token operator">></span>
-  <span class="token operator">&lt;</span>p class<span class="token operator">=</span><span class="token string">"text-primary"</span><span class="token operator">></span>Hello World<span class="token operator">&lt;</span>/p<span class="token operator">></span>
-  <span class="token operator">&lt;</span>p class<span class="token operator">=</span><span class="token string">"text-danger"</span><span class="token operator">></span>You have an error<span class="token operator">&lt;</span>/p<span class="token operator">></span>
-  <span class="token operator">&lt;</span>p class<span class="token operator">=</span><span class="token string">"text-default"</span><span class="token operator">></span>Try again later<span class="token operator">&lt;</span>/p<span class="token operator">></span>
-<span class="token operator">&lt;</span>/div<span class="token operator">></span>
-cy
-  .get<span class="token punctuation">(</span><span class="token string">'p'</span><span class="token punctuation">)</span>
-  .should<span class="token variable"><span class="token punctuation">((</span>$p<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> {
-    <span class="token operator">/</span><span class="token operator">/</span> should have found <span class="token number">3</span> elements
-    expect<span class="token punctuation">(</span>$p<span class="token punctuation">)</span>.to.have.length<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>
-
-    <span class="token operator">/</span><span class="token operator">/</span> make sure the first contains some text content
-    expect<span class="token punctuation">(</span>$p.first<span class="token punctuation">(</span><span class="token punctuation">))</span></span>.to.contain<span class="token punctuation">(</span><span class="token string">'Hello World'</span><span class="token punctuation">)</span>
-  <span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-<span class="token operator">&lt;</span>div class<span class="token operator">=</span><span class="token string">"docs-header"</span><span class="token operator">></span>
-  <span class="token operator">&lt;</span>div class<span class="token operator">=</span><span class="token string">"main-abc123 heading-xyz987"</span><span class="token operator">></span>Introduction<span class="token operator">&lt;</span>/div<span class="token operator">></span>
-<span class="token operator">&lt;</span>/div<span class="token operator">></span>
-cy.get<span class="token punctuation">(</span><span class="token string">'.docs-header'</span><span class="token punctuation">)</span>
-  .find<span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span>
-  // .should<span class="token punctuation">(</span>cb<span class="token punctuation">)</span> callback <span class="token keyword">function</span> will be retried
-  .should<span class="token punctuation">((</span><span class="token variable">$div</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
-    expect<span class="token punctuation">(</span><span class="token variable">$div</span><span class="token punctuation">)</span>.to.have.length<span class="token punctuation">(</span>1<span class="token punctuation">)</span>
-
-    const className <span class="token operator">=</span> <span class="token variable">$div</span><span class="token punctuation">[</span>0<span class="token punctuation">]</span>.className
-
-    expect<span class="token punctuation">(</span>className<span class="token punctuation">)</span>.to.match<span class="token punctuation">(</span>/heading-/<span class="token punctuation">)</span>
-  <span class="token punctuation">}</span><span class="token punctuation">)</span>
-  // .then<span class="token punctuation">(</span>cb<span class="token punctuation">)</span> callback is not retried,
-  // it either passes or fails
-  .then<span class="token punctuation">((</span><span class="token variable">$div</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
-    expect<span class="token punctuation">(</span><span class="token variable">$div</span><span class="token punctuation">)</span>.to.have.text<span class="token punctuation">(</span><span class="token string">'Introduction'</span><span class="token punctuation">)</span>
-  <span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-Example below first asserts that there are 3 elements, and <span class="token keyword">then</span> checks the text contents of each one.
-<span class="token operator">&lt;</span>ul class<span class="token operator">=</span><span class="token string">"connectors-list"</span><span class="token operator">></span>
-  <span class="token operator">&lt;</span>li<span class="token operator">></span>Walk the dog<span class="token operator">&lt;</span>/li<span class="token operator">></span>
-  <span class="token operator">&lt;</span>li<span class="token operator">></span>Feed the cat<span class="token operator">&lt;</span>/li<span class="token operator">></span>
-  <span class="token operator">&lt;</span>li<span class="token operator">></span>Write JavaScript<span class="token operator">&lt;</span>/li<span class="token operator">></span>
-<span class="token operator">&lt;</span>/ul<span class="token operator">></span>
-cy.get<span class="token punctuation">(</span><span class="token string">'.connectors-list > li'</span><span class="token punctuation">)</span>.should<span class="token variable"><span class="token punctuation">((</span>$lis<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> {
-  expect<span class="token punctuation">(</span>$lis<span class="token punctuation">)</span>.to.have.length<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>
-  expect<span class="token punctuation">(</span>$lis.eq<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">))</span></span>.to.contain<span class="token punctuation">(</span><span class="token string">'Walk the dog'</span><span class="token punctuation">)</span>
-  expect<span class="token punctuation">(</span><span class="token variable">$lis</span>.eq<span class="token punctuation">(</span>1<span class="token punctuation">))</span>.to.contain<span class="token punctuation">(</span><span class="token string">'Feed the cat'</span><span class="token punctuation">)</span>
-  expect<span class="token punctuation">(</span><span class="token variable">$lis</span>.eq<span class="token punctuation">(</span>2<span class="token punctuation">))</span>.to.contain<span class="token punctuation">(</span><span class="token string">'Write JavaScript'</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-For clarity you can pass a string message as a second argument to any <span class="token function">expect</span> assertion, see Chai<span class="token comment">#expect.</span>
-cy.get<span class="token punctuation">(</span><span class="token string">'.connectors-list > li'</span><span class="token punctuation">)</span>.should<span class="token punctuation">((</span><span class="token variable">$lis</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
-  expect<span class="token punctuation">(</span><span class="token variable">$lis</span>, <span class="token string">'3 items'</span><span class="token punctuation">)</span>.to.have.length<span class="token punctuation">(</span>3<span class="token punctuation">)</span>
-  expect<span class="token punctuation">(</span><span class="token variable">$lis</span>.eq<span class="token punctuation">(</span>0<span class="token punctuation">)</span>, <span class="token string">'first item'</span><span class="token punctuation">)</span>.to.contain<span class="token punctuation">(</span><span class="token string">'Walk the dog'</span><span class="token punctuation">)</span>
-  expect<span class="token punctuation">(</span><span class="token variable">$lis</span>.eq<span class="token punctuation">(</span>1<span class="token punctuation">)</span>, <span class="token string">'second item'</span><span class="token punctuation">)</span>.to.contain<span class="token punctuation">(</span><span class="token string">'Feed the cat'</span><span class="token punctuation">)</span>
-  expect<span class="token punctuation">(</span><span class="token variable">$lis</span>.eq<span class="token punctuation">(</span>2<span class="token punctuation">)</span>, <span class="token string">'third item'</span><span class="token punctuation">)</span>.to.contain<span class="token punctuation">(</span><span class="token string">'Write JavaScript'</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-Compare text values of two elements
-The example below gets the text contained within one element and saves it <span class="token keyword">in</span> a closure variable. Then the <span class="token function">test</span> gets the text <span class="token keyword">in</span> another element and asserts that the two text values are the same after normalizing.
-
-<span class="token operator">&lt;</span>div class<span class="token operator">=</span><span class="token string">"company-details"</span><span class="token operator">></span>
-  <span class="token operator">&lt;</span>div class<span class="token operator">=</span><span class="token string">"title"</span><span class="token operator">></span>Acme Developers<span class="token operator">&lt;</span>/div<span class="token operator">></span>
-  <span class="token operator">&lt;</span>div class<span class="token operator">=</span><span class="token string">"identifier"</span><span class="token operator">></span>ACMEDEVELOPERS<span class="token operator">&lt;</span>/div<span class="token operator">></span>
-<span class="token operator">&lt;</span>/div<span class="token operator">></span>
-const normalizeText <span class="token operator">=</span> <span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> s.replace<span class="token punctuation">(</span>/\s/g, <span class="token string">''</span><span class="token punctuation">)</span>.toLowerCase<span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-// will keep text from title element
-<span class="token keyword">let</span> titleText
-
-cy.get<span class="token punctuation">(</span><span class="token string">'.company-details'</span><span class="token punctuation">)</span>
-  .find<span class="token punctuation">(</span><span class="token string">'.title'</span><span class="token punctuation">)</span>
-  .then<span class="token variable"><span class="token punctuation">((</span>$title<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> {
-    <span class="token operator">/</span><span class="token operator">/</span> save text from the first element
-    titleText <span class="token operator">=</span> normalizeText<span class="token punctuation">(</span>$title.text<span class="token punctuation">(</span><span class="token punctuation">))</span></span>
-  <span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-cy.get<span class="token punctuation">(</span><span class="token string">'.company-details'</span><span class="token punctuation">)</span>
-  .find<span class="token punctuation">(</span><span class="token string">'.identifier'</span><span class="token punctuation">)</span>
-  .should<span class="token variable"><span class="token punctuation">((</span>$identifier<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> {
-    <span class="token operator">/</span><span class="token operator">/</span> we can massage text before comparing
-    const idText <span class="token operator">=</span> normalizeText<span class="token punctuation">(</span>$identifier.text<span class="token punctuation">(</span><span class="token punctuation">))</span></span>
-
-    // text from the title element should already be <span class="token keyword">set</span>
-    expect<span class="token punctuation">(</span>idText, <span class="token string">'ID'</span><span class="token punctuation">)</span>.to.equal<span class="token punctuation">(</span>titleText<span class="token punctuation">)</span>
-  <span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-In this example we use .and<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token function">which</span> is identical to .should<span class="token punctuation">(</span><span class="token punctuation">)</span>.
-// our subject is not changed by our first assertion,
-// so we can <span class="token keyword">continue</span> to use DOM based assertions
-cy.get<span class="token punctuation">(</span><span class="token string">'option:first'</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'be.selected'</span><span class="token punctuation">)</span>.and<span class="token punctuation">(</span><span class="token string">'have.value'</span>, <span class="token string">'Metallica'</span><span class="token punctuation">)</span></code></pre>
-      </div>
 <h2>cypress siblings - .siblings</h2>
 <div class="gatsby-highlight" data-language="bash">
       <pre class="language-bash"><code class="language-bash">cy.get<span class="token punctuation">(</span><span class="token string">'td'</span><span class="token punctuation">)</span>.siblings<span class="token punctuation">(</span><span class="token punctuation">)</span>           // Yield all td<span class="token string">'s siblings
@@ -2225,6 +2235,13 @@ cy.get<span class="token punctuation">(</span><span class="token string">'#conta
 Submit a form
 cy.route<span class="token punctuation">(</span><span class="token string">'POST'</span>, <span class="token string">'/users'</span>, <span class="token string">'fixture:user'</span><span class="token punctuation">)</span>.as<span class="token punctuation">(</span><span class="token string">'userSuccess'</span><span class="token punctuation">)</span>
 cy.get<span class="token punctuation">(</span><span class="token string">'form'</span><span class="token punctuation">)</span>.submit<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<h2>cypress title - cy.title</h2>
+<div class="gatsby-highlight" data-language="bash">
+      <pre class="language-bash"><code class="language-bash">Assert that the document’s title is “My Awesome Application”
+cy.title<span class="token punctuation">(</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'eq'</span>, <span class="token string">'My Awesome Application'</span><span class="token punctuation">)</span>
+Assert that the document’s title includes ‘New User’
+cy.title<span class="token punctuation">(</span><span class="token punctuation">)</span>.should<span class="token punctuation">(</span><span class="token string">'include'</span>, <span class="token string">'New User'</span><span class="token punctuation">)</span></code></pre>
       </div>
 <h2>cypress type - .type</h2>
 <div class="gatsby-highlight" data-language="bash">
@@ -2325,7 +2342,7 @@ cy.wrap<span class="token punctuation">(</span><span class="token punctuation">{
 cy.wrap<span class="token punctuation">(</span><span class="token punctuation">{</span> amount: 10 <span class="token punctuation">}</span><span class="token punctuation">)</span>
   .should<span class="token punctuation">(</span><span class="token string">'have.property'</span>, <span class="token string">'amount'</span><span class="token punctuation">)</span>
   .and<span class="token punctuation">(</span><span class="token string">'eq'</span>, 10<span class="token punctuation">)</span></code></pre>
-      </div></div></article><footer class="jss10"><div class="jss11"></div></footer></div><div style="position:absolute;height:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;left:2px;border-radius:3px"><div style="position:relative;display:block;height:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div><div style="position:absolute;width:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;top:2px;border-radius:3px"><div style="position:relative;display:block;width:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div></div></main><nav class="jss12 is-aside open "><div class="jss13"><div style="position:relative;overflow:hidden;width:100%;height:100%"><div style="position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden;-webkit-overflow-scrolling:touch;margin-right:0;margin-bottom:0"><div class="jss14"><header></header><ul class="jss15"><li class="jss20 Test Planning, Test Cases" style="display:block"><a class="jss21" href="/testplan-testcases-arrange-act-assert/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Test plan,test cases with Arrange-Act-Assert pattern</h1></div></a></li><li class="jss20 Test Automation" style="display:block"><a class="jss21" href="/incrementally-improving-test-code/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Incrementally improving test code</h1></div></a></li><li class="jss20 Http,REST, Postman, Api" style="display:block"><a class="jss21" href="/http-get-post-put-delete/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Http Get, Post, Put, Delete</h1></div></a></li><li class="jss20 REST, JSON" style="display:block"><a class="jss21" href="/frontend -backdend-restapi-json-a- quick-look/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Frontend, Backend, Http REST Api, JSON - A Quick look</h1></div></a></li><li class="jss20 JSON" style="display:block"><a class="jss21" href="/understanding-json/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Understanding JSON</h1></div></a></li><li class="jss20 Cypress" style="display:block"><a class="jss21" href="/installing-cypress/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Installing Cypress</h1></div></a></li><li class="jss20 Cypress" style="display:block"><a class="jss21" href="/running-a-sample-cypress-test/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Running a sample cypress test</h1></div></a></li></ul></div></div><div style="position:absolute;height:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;left:2px;border-radius:3px"><div style="position:relative;display:block;height:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div><div style="position:absolute;width:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;top:2px;border-radius:3px"><div style="position:relative;display:block;width:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div></div></div></nav><div class="jss24"><div class="jss25"><button tabindex="0" class="jss33 jss27 jss26" type="button" aria-label="Back to list" title="Back to the list"><span class="jss32"><svg class="jss36" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path></g></svg></span><span class="jss43"></span></button><a tabindex="0" class="jss33 jss27 jss26" role="button" aria-label="Search" data-shape="closed" title="Search" href="/search/"><span class="jss32"><svg class="jss36 jss26" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></g></svg></span><span class="jss43"></span></a></div><div class="jss25"><nav class="jss50"><div><div><button tabindex="0" class="jss33 jss27 jss51" type="button" aria-label="Increase font size" aria-haspopup="true" title="Change font size"><span class="jss32"><svg class="jss36" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z"></path></g></svg></span><span class="jss43"></span></button></div><div class="jss52" style="position:absolute;pointer-events:none;opacity:0"><div class="jss53 jss57 jss54" style="opacity:0;transform:scale(0.75, 0.5625);transform-origin:0 0 0" id="font-menu-list"><ul class="jss80 jss81" role="menu"><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">150%<span class="jss43"></span></li><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">125%<span class="jss43"></span></li><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">100%<span class="jss43"></span></li></ul></div></div></div></nav><button tabindex="0" class="jss33 jss27" type="button" aria-label="Back to top" title="Scroll to top"><span class="jss32"><svg class="jss36 jss26" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path></g></svg></span><span class="jss43"></span></button></div></div><aside class="jss96"><a class="jss98" href="/"><div class="jss100 jss99"><img alt="Swift Parrot" src="/static/avatar.4931ab67.jpg" class="jss102"/></div></a><h3 class="jss97">Swift Parrot<small></small></h3><nav class="jss103"><div><div><button tabindex="0" class="jss33 jss27 jss104" type="button" aria-label="More" aria-haspopup="true"><span class="jss32"><svg class="jss36" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></g></svg></span><span class="jss43"></span></button></div><div class="jss105" style="position:absolute;pointer-events:none;opacity:0"><div class="jss53 jss57 jss54" style="opacity:0;transform:scale(0.75, 0.5625);transform-origin:0 0 0" id="menu-list"><ul class="jss80 jss81" role="menu"><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">Home<span class="jss43"></span></li><a style="display:block" tabindex="-1" href="/about/"><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">About<span class="jss43"></span></li></a><a style="display:block" tabindex="-1" href="/starters/"><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">Portfolio<span class="jss43"></span></li></a><a style="display:block" tabindex="-1" href="/cypress/"><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">Cypress<span class="jss43"></span></li></a><a style="display:block" tabindex="-1" href="/contact/"><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">Contact<span class="jss43"></span></li></a></ul></div></div></div></nav></aside></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"0":"0-4bbacfe747d094567432.js","1":"1-658dec84bed14216557b.js","231608221292675":"app-c96a1b4aad433022a907.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","235131596041995":"component---src-templates-page-template-js-e0434750f574a9276ef2.js","198517197184460":"component---src-templates-post-template-js-816d9a7874656e886e5d.js","70144966829960":"component---src-pages-contact-js-a7f22bf0e94a94961246.js","35783957827783":"component---src-pages-index-js-aa9570313651ef926b5a.js","142807904292071":"component---src-pages-search-js-5d756b1eabcda4b49393.js","60335399758886":"path----928e12379534147b27c8.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","273950069227526":"path---about-bca66f8ae5e0a9fd1a5d.js","230064834116715":"path---starters-5b9f1098a5c07c9ed486.js","170786371021445":"path---success-e05f111652179f46ad16.js","53033257506304":"path---understanding-json-ac0a8e8f3c8e97d7d427.js","260300161108294":"path---installing-cypress-cd6f03d87ca5cfda108a.js","155175010635273":"path---running-a-sample-cypress-test-f765a00b1a929a6f798d.js","258477325269644":"path---http-get-post-put-delete-994cecb5f49880d028eb.js","161736077744710":"path---incrementally-improving-test-code-e19eed0202954ce6f806.js","188441227365681":"path---testplan-testcases-arrange-act-assert-2a0a3236ebf0fa1e016c.js","11168335293552":"path---frontend-backdend-restapi-json-a-quick-look-8be85b92ecd9f18ad094.js","166039982842105":"path---cypress-ffe8cadbd11a9ccd3ee3.js","184662623972074":"path---contact-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-206ac74de0d3aab26f03.js","254572558124955":"path---search-84269fabafea3eec14cf.js","114276838955818":"component---src-layouts-index-js-d5caeadee74e365beb1f.js"}/*]]>*/</script><script>
+      </div></div></article><footer class="jss10"><div class="jss11"></div></footer></div><div style="position:absolute;height:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;left:2px;border-radius:3px"><div style="position:relative;display:block;height:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div><div style="position:absolute;width:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;top:2px;border-radius:3px"><div style="position:relative;display:block;width:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div></div></main><nav class="jss12 is-aside open "><div class="jss13"><div style="position:relative;overflow:hidden;width:100%;height:100%"><div style="position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden;-webkit-overflow-scrolling:touch;margin-right:0;margin-bottom:0"><div class="jss14"><header></header><ul class="jss15"><li class="jss20 Test Planning, Test Cases" style="display:block"><a class="jss21" href="/testplan-testcases-arrange-act-assert/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Test plan,test cases with Arrange-Act-Assert pattern</h1></div></a></li><li class="jss20 Test Automation" style="display:block"><a class="jss21" href="/incrementally-improving-test-code/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Incrementally improving test code</h1></div></a></li><li class="jss20 Http,REST, Postman, Api" style="display:block"><a class="jss21" href="/http-get-post-put-delete/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Http Get, Post, Put, Delete</h1></div></a></li><li class="jss20 REST, JSON" style="display:block"><a class="jss21" href="/frontend -backdend-restapi-json-a- quick-look/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Frontend, Backend, Http REST Api, JSON - A Quick look</h1></div></a></li><li class="jss20 JSON" style="display:block"><a class="jss21" href="/understanding-json/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Understanding JSON</h1></div></a></li><li class="jss20 Cypress" style="display:block"><a class="jss21" href="/installing-cypress/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Installing Cypress</h1></div></a></li><li class="jss20 Cypress" style="display:block"><a class="jss21" href="/running-a-sample-cypress-test/"><div class="jss22 pointer"><div style="height:60px" class="lazyload-placeholder"></div></div><div class="jss23"><h1>Running a sample cypress test</h1></div></a></li></ul></div></div><div style="position:absolute;height:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;left:2px;border-radius:3px"><div style="position:relative;display:block;height:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div><div style="position:absolute;width:6px;transition:opacity 200ms;opacity:0;display:none;right:2px;bottom:2px;top:2px;border-radius:3px"><div style="position:relative;display:block;width:100%;cursor:pointer;border-radius:inherit;background-color:rgba(0,0,0,.2)"></div></div></div></div></nav><div class="jss24"><div class="jss25"><button tabindex="0" class="jss33 jss27 jss26" type="button" aria-label="Back to list" title="Back to the list"><span class="jss32"><svg class="jss36" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path></g></svg></span><span class="jss43"></span></button><a tabindex="0" class="jss33 jss27 jss26" role="button" aria-label="Search" data-shape="closed" title="Search" href="/search/"><span class="jss32"><svg class="jss36 jss26" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></g></svg></span><span class="jss43"></span></a></div><div class="jss25"><nav class="jss50"><div><div><button tabindex="0" class="jss33 jss27 jss51" type="button" aria-label="Increase font size" aria-haspopup="true" title="Change font size"><span class="jss32"><svg class="jss36" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z"></path></g></svg></span><span class="jss43"></span></button></div><div class="jss52" style="position:absolute;pointer-events:none;opacity:0"><div class="jss53 jss57 jss54" style="opacity:0;transform:scale(0.75, 0.5625);transform-origin:0 0 0" id="font-menu-list"><ul class="jss80 jss81" role="menu"><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">150%<span class="jss43"></span></li><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">125%<span class="jss43"></span></li><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">100%<span class="jss43"></span></li></ul></div></div></div></nav><button tabindex="0" class="jss33 jss27" type="button" aria-label="Back to top" title="Scroll to top"><span class="jss32"><svg class="jss36 jss26" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path></g></svg></span><span class="jss43"></span></button></div></div><aside class="jss96"><a class="jss98" href="/"><div class="jss100 jss99"><img alt="Swift Parrot" src="/static/avatar.4931ab67.jpg" class="jss102"/></div></a><h3 class="jss97">Swift Parrot<small></small></h3><nav class="jss103"><div><div><button tabindex="0" class="jss33 jss27 jss104" type="button" aria-label="More" aria-haspopup="true"><span class="jss32"><svg class="jss36" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></g></svg></span><span class="jss43"></span></button></div><div class="jss105" style="position:absolute;pointer-events:none;opacity:0"><div class="jss53 jss57 jss54" style="opacity:0;transform:scale(0.75, 0.5625);transform-origin:0 0 0" id="menu-list"><ul class="jss80 jss81" role="menu"><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">Home<span class="jss43"></span></li><a style="display:block" tabindex="-1" href="/about/"><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">About<span class="jss43"></span></li></a><a style="display:block" tabindex="-1" href="/starters/"><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">Portfolio<span class="jss43"></span></li></a><a style="display:block" tabindex="-1" href="/cypress/"><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">Cypress<span class="jss43"></span></li></a><a style="display:block" tabindex="-1" href="/contact/"><li tabindex="-1" class="jss33 jss86 jss89 jss93 jss94 jss84" role="menuitem">Contact<span class="jss43"></span></li></a></ul></div></div></div></nav></aside></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"0":"0-4bbacfe747d094567432.js","1":"1-658dec84bed14216557b.js","231608221292675":"app-c96a1b4aad433022a907.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","235131596041995":"component---src-templates-page-template-js-e0434750f574a9276ef2.js","198517197184460":"component---src-templates-post-template-js-816d9a7874656e886e5d.js","70144966829960":"component---src-pages-contact-js-a7f22bf0e94a94961246.js","35783957827783":"component---src-pages-index-js-aa9570313651ef926b5a.js","142807904292071":"component---src-pages-search-js-5d756b1eabcda4b49393.js","60335399758886":"path----928e12379534147b27c8.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","273950069227526":"path---about-bca66f8ae5e0a9fd1a5d.js","230064834116715":"path---starters-5b9f1098a5c07c9ed486.js","170786371021445":"path---success-e05f111652179f46ad16.js","53033257506304":"path---understanding-json-ac0a8e8f3c8e97d7d427.js","260300161108294":"path---installing-cypress-cd6f03d87ca5cfda108a.js","155175010635273":"path---running-a-sample-cypress-test-f765a00b1a929a6f798d.js","258477325269644":"path---http-get-post-put-delete-994cecb5f49880d028eb.js","161736077744710":"path---incrementally-improving-test-code-e19eed0202954ce6f806.js","188441227365681":"path---testplan-testcases-arrange-act-assert-2a0a3236ebf0fa1e016c.js","11168335293552":"path---frontend-backdend-restapi-json-a-quick-look-8be85b92ecd9f18ad094.js","166039982842105":"path---cypress-dfa400a85db63971d1df.js","184662623972074":"path---contact-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-206ac74de0d3aab26f03.js","254572558124955":"path---search-84269fabafea3eec14cf.js","114276838955818":"component---src-layouts-index-js-d5caeadee74e365beb1f.js"}/*]]>*/</script><script>
             
   
   if(true) {
@@ -2349,4 +2366,4 @@ cy.wrap<span class="token punctuation">(</span><span class="token punctuation">{
             wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
             wf.async = true;
             s.parentNode.insertBefore(wf, s);
-        })(document);</script><script>/*<![CDATA[*/["/commons-8e3d0f9e6921700276ab.js","/app-c96a1b4aad433022a907.js","/path---cypress-ffe8cadbd11a9ccd3ee3.js","/component---src-templates-page-template-js-e0434750f574a9276ef2.js","/component---src-layouts-index-js-d5caeadee74e365beb1f.js"].forEach(function(s){document.write('<script src="'+s+'" defer></'+'script>')})/*]]>*/</script></body></html>
+        })(document);</script><script>/*<![CDATA[*/["/commons-8e3d0f9e6921700276ab.js","/app-c96a1b4aad433022a907.js","/path---cypress-dfa400a85db63971d1df.js","/component---src-templates-page-template-js-e0434750f574a9276ef2.js","/component---src-layouts-index-js-d5caeadee74e365beb1f.js"].forEach(function(s){document.write('<script src="'+s+'" defer></'+'script>')})/*]]>*/</script></body></html>
