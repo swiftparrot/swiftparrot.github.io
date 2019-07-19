@@ -1,4 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Software Testing and Automation]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 16 Jul 2019 03:41:10 GMT</lastBuildDate><item><title><![CDATA[Test plan,test cases with Arrange-Act-Assert pattern]]></title><description><![CDATA[AAA or Arrange-Act-Assert is the industry standard pattern used to write test cases. So most test cases will contain these three sections of…]]></description><link>https://swiftparrot.github.io/testplan-testcases-arrange-act-assert/</link><guid isPermaLink="false">https://swiftparrot.github.io/testplan-testcases-arrange-act-assert/</guid><content:encoded>&lt;p&gt;AAA or Arrange-Act-Assert is the industry standard pattern used to write test cases. So most test cases will contain these three sections of code- Arrange, Act, Assert. &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Experiments With Software Testing and Automation]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 19 Jul 2019 03:19:46 GMT</lastBuildDate><item><title><![CDATA[Agile and Scrum Simplified]]></title><description><![CDATA[Here is how I taught myself Agile and Scrum concepts. Concepts became much clearer when I learned how the various roles, artifacts and…]]></description><link>https://swiftparrot.github.io/agile-and-scrum-simplified/</link><guid isPermaLink="false">https://swiftparrot.github.io/agile-and-scrum-simplified/</guid><content:encoded>&lt;p&gt;Here is how I taught myself Agile and Scrum concepts. Concepts became much clearer when I learned how the various roles, artifacts and events interact.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/agile-scrum-1030c1451fab6c3c37c5e7885499b454-d1d70.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGi2TTTjgv/xAAaEAACAgMAAAAAAAAAAAAAAAABNAIEBREx/9oACAEBAAEFAqC0js2mceseWmf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAAAAXECEP/aAAgBAQAGPwJV83RUZun/xAAbEAEAAgIDAAAAAAAAAAAAAAABABEQIUFRgf/aAAgBAQABPyFAkNJdFcR2sAbu0B5Yr//aAAwDAQACAAMAAAAQNA//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxBJ/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHhABAAICAQUAAAAAAAAAAAAAAQARITFBUWGhwdH/2gAIAQEAAT8QRBbgFwtlTE1s2d1x0nca/glYL+5DEAZagozR6k//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Understanding Agile and Scrum&quot;
+        title=&quot;Understanding Agile and Scrum&quot;
+        src=&quot;/static/agile-scrum-1030c1451fab6c3c37c5e7885499b454-78f2b.jpg&quot;
+        srcset=&quot;/static/agile-scrum-1030c1451fab6c3c37c5e7885499b454-dce19.jpg 200w,
+/static/agile-scrum-1030c1451fab6c3c37c5e7885499b454-c1413.jpg 400w,
+/static/agile-scrum-1030c1451fab6c3c37c5e7885499b454-78f2b.jpg 800w,
+/static/agile-scrum-1030c1451fab6c3c37c5e7885499b454-ab4c4.jpg 1200w,
+/static/agile-scrum-1030c1451fab6c3c37c5e7885499b454-d1d70.jpg 1280w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Reference: &lt;a href=&quot;http://www.youtube.com/watch?v=mJRsSbWR3Mc&quot;&gt;http://www.youtube.com/watch?v=mJRsSbWR3Mc&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Software Development Life Cycle (SDLC)&lt;/h2&gt;
+&lt;p&gt;Software Development Life Cycle (SDLC) is a concept that details the various stages in a software release.  &lt;/p&gt;
+&lt;h3&gt;SDLC Stages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Planning&lt;/li&gt;
+&lt;li&gt;Designing&lt;/li&gt;
+&lt;li&gt;Developing&lt;/li&gt;
+&lt;li&gt;Testing&lt;/li&gt;
+&lt;li&gt;Deploying&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Agile is a software methodology that is iterative. It adapts to changes much faster. It helps deliver high quality software faster, that meets customer requirements. &lt;/p&gt;
+&lt;p&gt;Scrum is one of the most common Agile development frameworks. In Scrum, the project is split into multiple periods. Each period can last from 2-4 weeks. So if a company adopts a 2 week period, that duration is called a Sprint.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Scrum Roles (Product Owner, Scrum Master, Scrum Team, Stakeholders)&lt;/li&gt;
+&lt;li&gt;Scrum Artifacts (Product Backlog, Sprint Backlog)&lt;/li&gt;
+&lt;li&gt;Scrum Events (Sprint Planning, Sprint, Daily Standup, Sprint Review, Sprint Retrospective)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Scrum Roles&lt;/h2&gt;
+&lt;h3&gt;Product Owner&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Gathers business requirements &lt;/li&gt;
+&lt;li&gt;Helps the team undestand the vision and the business value of features&lt;/li&gt;
+&lt;li&gt;Prioritize the features (backlog)&lt;/li&gt;
+&lt;li&gt;Accept finished software&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Scrum Master&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Plans sprints&lt;/li&gt;
+&lt;li&gt;Help eliminate blockages and obstacles that prevent the team from achieving their goals&lt;/li&gt;
+&lt;li&gt;Tracks the sprint’s progress&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Scrum Team Members&lt;/h3&gt;
+&lt;p&gt;  The scrum team can include Architects, Software developers, QA testers etc.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop code required to meet sprint goals&lt;/li&gt;
+&lt;li&gt;Implement test plans and tests&lt;/li&gt;
+&lt;li&gt;Identify obstacles and informing team and Scrum Team Master&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Stakeholders&lt;/h3&gt;
+&lt;p&gt;  Stakeholders are the people that derive value from the software.
+-Can have indirect involvement through discussions with Product Owners.
+-Can include executives, customers, users, partners&lt;/p&gt;
+&lt;h2&gt;Scrum Artifacts&lt;/h2&gt;
+&lt;h3&gt;Product Backlog&lt;/h3&gt;
+&lt;p&gt;  This is a prioritized list of new features that should be implemented as part of a project. This is a big list of features..sort of a wish-list of features&lt;/p&gt;
+&lt;h3&gt;Sprint Backlog&lt;/h3&gt;
+&lt;p&gt;  This is a list of items (user stories) that the sprint team is committed to doing as part of the current sprint. THis list can also include defects, refactoring work etc.&lt;/p&gt;
+&lt;h2&gt;Scrum Events&lt;/h2&gt;
+&lt;h3&gt;Sprint Planning&lt;/h3&gt;
+&lt;p&gt;  This meeting is held at the beginning of the sprint. This is attended by the Product Owner, Scrum Master, Scrum Team (including Architects, Developers, Testers etc). The Product Owner first presents the current top priority items in the Product Backlog. At the end of the meeting, the team commits to a Sprint Backlog of items that they are confident that they can complete by the end of the sprint.&lt;/p&gt;
+&lt;h3&gt;Sprint&lt;/h3&gt;
+&lt;p&gt;  The sprint is the fixed time period (2-4 weeks) where the Scrum team delivers items.&lt;/p&gt;
+&lt;h3&gt;Daily Standup&lt;/h3&gt;
+&lt;p&gt;  A daily short meeting where the sprint team members share 3 things - What they did yesterday, What they plan to do today, Are there blocked or have any obstacles. &lt;/p&gt;
+&lt;h3&gt;Sprint Review (Demo time)&lt;/h3&gt;
+&lt;p&gt;  This meeting occurs at the end of a sprint. The team presents the results of the sprint to the Product Owners and Stakeholders. This is usually done by demoing the feature. &lt;/p&gt;
+&lt;h3&gt;Sprint Retrospective&lt;/h3&gt;
+&lt;p&gt;  At this meeting held once per sprint, the team discusses - What went right, What did not go well, What can be improved&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test plan,test cases with Arrange-Act-Assert pattern]]></title><description><![CDATA[AAA or Arrange-Act-Assert is the industry standard pattern used to write test cases. So most test cases will contain these three sections of…]]></description><link>https://swiftparrot.github.io/testplan-testcases-arrange-act-assert/</link><guid isPermaLink="false">https://swiftparrot.github.io/testplan-testcases-arrange-act-assert/</guid><content:encoded>&lt;p&gt;AAA or Arrange-Act-Assert is the industry standard pattern used to write test cases. So most test cases will contain these three sections of code- Arrange, Act, Assert. &lt;/p&gt;
 &lt;p&gt;Arrange section is where you write to setup the test. This is where you setup all the pre-requisites before the actual test is run. For example, if your test expects specific data to exist in the database, you will need to setup the database with the exact data. &lt;/p&gt;
 &lt;p&gt;Act is the section where perform the actions for the test. For example for a UI test this could be clicking on a button. For an Http REST API test, this could be making the actual API request.&lt;/p&gt;
 &lt;p&gt;Assert is the section where you make sure the test ran with the right results. This is where you verify that the test came back with the data you expected. For example for an UI application, you would check that the color of a box changed when you clicked the button. For an API test, this will be where you verify that the HTTP response came back with a 200 HTTP status code.&lt;/p&gt;

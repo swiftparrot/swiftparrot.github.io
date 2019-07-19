@@ -8,13 +8,17 @@
       "component---src-pages-index-js-aa9570313651ef926b5a.js",
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
+    "path---agile-and-scrum-simplified": [
+      "path---agile-and-scrum-simplified-23582cba51cf8e96823b.js",
+      "path---agile-and-scrum-simplified-23582cba51cf8e96823b.js.map"
+    ],
     "path---understanding-json": [
       "path---understanding-json-ac0a8e8f3c8e97d7d427.js",
       "path---understanding-json-ac0a8e8f3c8e97d7d427.js.map"
     ],
     "path---": [
-      "path----928e12379534147b27c8.js",
-      "path----928e12379534147b27c8.js.map"
+      "path----b0d3984633a2d50bbb03.js",
+      "path----b0d3984633a2d50bbb03.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-a7f22bf0e94a94961246.js",
@@ -25,8 +29,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-d5caeadee74e365beb1f.js",
-      "component---src-layouts-index-js-d5caeadee74e365beb1f.js.map"
+      "component---src-layouts-index-js-da8e1d9ccbf78372fe03.js",
+      "component---src-layouts-index-js-da8e1d9ccbf78372fe03.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -79,9 +83,9 @@
       "path---starters-5b9f1098a5c07c9ed486.js.map"
     ],
     "app": [
-      "app-c96a1b4aad433022a907.js",
+      "app-152e644aebd98b94fe35.js",
       "build-js-styles.css",
-      "app-c96a1b4aad433022a907.js.map",
+      "app-152e644aebd98b94fe35.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
