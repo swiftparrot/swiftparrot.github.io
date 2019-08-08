@@ -4,6 +4,10 @@
       "path---frontend-backdend-restapi-json-a-quick-look-b06edb4640ad617d9fc3.js",
       "path---frontend-backdend-restapi-json-a-quick-look-b06edb4640ad617d9fc3.js.map"
     ],
+    "path---skils-and-tools": [
+      "path---skils-and-tools-b6a01667285bdc398bb5.js",
+      "path---skils-and-tools-b6a01667285bdc398bb5.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-aa9570313651ef926b5a.js",
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
@@ -17,8 +21,8 @@
       "path---understanding-json-d0b996c3b3b5a5758848.js.map"
     ],
     "path---": [
-      "path----77c53d8860bd1c8e5f35.js",
-      "path----77c53d8860bd1c8e5f35.js.map"
+      "path----5bae481e1fe0b3555a3a.js",
+      "path----5bae481e1fe0b3555a3a.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-a7f22bf0e94a94961246.js",
@@ -29,8 +33,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b920c78dba1ce3dd0dc8.js",
-      "component---src-layouts-index-js-b920c78dba1ce3dd0dc8.js.map"
+      "component---src-layouts-index-js-8086cec94b5184dc8b55.js",
+      "component---src-layouts-index-js-8086cec94b5184dc8b55.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -87,9 +91,9 @@
       "path---starters-5b9f1098a5c07c9ed486.js.map"
     ],
     "app": [
-      "app-77c8d6e822c590fe223a.js",
+      "app-53673d74b51634b6b724.js",
       "build-js-styles.css",
-      "app-77c8d6e822c590fe223a.js.map",
+      "app-53673d74b51634b6b724.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
