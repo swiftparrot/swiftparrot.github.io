@@ -5,8 +5,8 @@
       "path---frontend-backdend-restapi-json-a-quick-look-b06edb4640ad617d9fc3.js.map"
     ],
     "path---skils-and-tools": [
-      "path---skils-and-tools-50d937ef1d312fd22e05.js",
-      "path---skils-and-tools-50d937ef1d312fd22e05.js.map"
+      "path---skils-and-tools-7bd27cf95053dae395f5.js",
+      "path---skils-and-tools-7bd27cf95053dae395f5.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-aa9570313651ef926b5a.js",
@@ -16,25 +16,29 @@
       "path---agile-and-scrum-simplified-11e9eb1673aeb70496c3.js",
       "path---agile-and-scrum-simplified-11e9eb1673aeb70496c3.js.map"
     ],
+    "path---blog": [
+      "path---blog-64e6095b2c08f76cafbe.js",
+      "path---blog-64e6095b2c08f76cafbe.js.map"
+    ],
     "path---understanding-json": [
       "path---understanding-json-d0b996c3b3b5a5758848.js",
       "path---understanding-json-d0b996c3b3b5a5758848.js.map"
     ],
     "path---": [
-      "path----f08c444a6978b31c6b21.js",
-      "path----f08c444a6978b31c6b21.js.map"
+      "path----2bd422a700a5316e2099.js",
+      "path----2bd422a700a5316e2099.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-298cf07e0a5da531620c.js",
-      "component---src-pages-contact-js-298cf07e0a5da531620c.js.map"
+      "component---src-pages-contact-js-fc36a438f4773d1e8363.js",
+      "component---src-pages-contact-js-fc36a438f4773d1e8363.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-e3ef7b2c79d2d33e1bbb.js",
-      "component---src-layouts-index-js-e3ef7b2c79d2d33e1bbb.js.map"
+      "component---src-layouts-index-js-0616c8028a46ce93c87f.js",
+      "component---src-layouts-index-js-0616c8028a46ce93c87f.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -53,18 +57,18 @@
       "path---incrementally-improving-test-code-9062286bc4d750a8abe1.js.map"
     ],
     "path---cypress": [
-      "path---cypress-e849aa05c7aa76ad2dad.js",
-      "path---cypress-e849aa05c7aa76ad2dad.js.map"
+      "path---cypress-8ad43a44517538b9a64b.js",
+      "path---cypress-8ad43a44517538b9a64b.js.map"
     ],
     "commons": [
-      "commons-8e3d0f9e6921700276ab.js",
+      "commons-cde0f01f8f91e7bee6fc.js",
       "build-js-styles.css",
-      "commons-8e3d0f9e6921700276ab.js.map",
+      "commons-cde0f01f8f91e7bee6fc.js.map",
       "build-js-styles.css.map"
     ],
     "path---success": [
-      "path---success-e05f111652179f46ad16.js",
-      "path---success-e05f111652179f46ad16.js.map"
+      "path---success-af21631458e187d60b26.js",
+      "path---success-af21631458e187d60b26.js.map"
     ],
     "path---unix-windows-networks-security": [
       "path---unix-windows-networks-security-bbc5fd4b3bf98a765948.js",
@@ -78,22 +82,22 @@
       "path---testplan-testcases-arrange-act-assert-eba40ae545708cb8466f.js",
       "path---testplan-testcases-arrange-act-assert-eba40ae545708cb8466f.js.map"
     ],
+    "path---portfolio": [
+      "path---portfolio-62adadb112cc3365519f.js",
+      "path---portfolio-62adadb112cc3365519f.js.map"
+    ],
     "component---src-templates-post-template-js": [
-      "component---src-templates-post-template-js-816d9a7874656e886e5d.js",
-      "component---src-templates-post-template-js-816d9a7874656e886e5d.js.map"
+      "component---src-templates-post-template-js-f2a7b772973689149999.js",
+      "component---src-templates-post-template-js-f2a7b772973689149999.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---starters": [
-      "path---starters-a10c9550cc05517539b6.js",
-      "path---starters-a10c9550cc05517539b6.js.map"
-    ],
     "app": [
-      "app-44d3129cadb1ec21d23b.js",
+      "app-4b7b03a26c1c772bd4f0.js",
       "build-js-styles.css",
-      "app-44d3129cadb1ec21d23b.js.map",
+      "app-4b7b03a26c1c772bd4f0.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
@@ -111,10 +115,6 @@
     "path---installing-cypress": [
       "path---installing-cypress-161640469b228011dbd6.js",
       "path---installing-cypress-161640469b228011dbd6.js.map"
-    ],
-    "path---about": [
-      "path---about-2567122e2814325fab9b.js",
-      "path---about-2567122e2814325fab9b.js.map"
     ]
   }
 }
