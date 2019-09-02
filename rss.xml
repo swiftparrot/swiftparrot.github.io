@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Swift Parrot]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 02 Sep 2019 16:49:15 GMT</lastBuildDate><item><title><![CDATA[Continous Integration (CI) and Test Reports (Dashboard Service)]]></title><description><![CDATA[Almost all software projects are done in teams with multiple people. Engineers contribute code and tests to a common code base. Its very…]]></description><link>https://swiftparrot.github.io/continous-integration/</link><guid isPermaLink="false">https://swiftparrot.github.io/continous-integration/</guid><content:encoded>&lt;p&gt;Almost all software projects are done in teams with multiple people. Engineers contribute code and tests to a common code base. Its very important to keep this common repository stable always. &lt;/p&gt;
-&lt;p&gt;Continous Integration (CI) is a development practice that integrtes code into a shared repository. After each checkin, an automated build and test happens on the CI machine. This allows to detect build and test issues as soon as each commit happens.&lt;/p&gt;
-&lt;p&gt;Some of the advantages of Continous Integration process are&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift Parrot]]></title><description><![CDATA[Swift Parrot]]></description><link>https://swiftparrot.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 02 Sep 2019 17:05:02 GMT</lastBuildDate><item><title><![CDATA[Continuous Integration (CI) and Test Reports (Cypress Dashboard Service)]]></title><description><![CDATA[Almost all software projects are done in teams with multiple people. Engineers contribute code and tests to a common code base. Its very…]]></description><link>https://swiftparrot.github.io/continous-integration/</link><guid isPermaLink="false">https://swiftparrot.github.io/continous-integration/</guid><content:encoded>&lt;p&gt;Almost all software projects are done in teams with multiple people. Engineers contribute code and tests to a common code base. Its very important to keep this common repository stable always. &lt;/p&gt;
+&lt;p&gt;Continuous Integration (CI) is a development practice that integrtes code into a shared repository. After each checkin, an automated build and test happens on the CI machine. This allows to detect build and test issues as soon as each commit happens.&lt;/p&gt;
+&lt;p&gt;Some of the advantages of Continuous Integration process are&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Maintains a shared repository&lt;/li&gt;
 &lt;li&gt;Automates the build&lt;/li&gt;
@@ -13,14 +13,14 @@
 Lets create a Cypress project on Github and integrate it with CircleCI.&lt;/p&gt;
 &lt;p&gt;Once this is setup, each time I make a change in the Github repository, I will see CircleCI checking out the code, building and testing the code.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; continousintegration1
-&lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; continousintegration1
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; continuousintegration1
+&lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; continuousintegration1
 &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; init
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; init
 &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; cypress --save-dev&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;h3&gt;Adding sample cypress tests to project&lt;/h3&gt;
-&lt;p&gt;Open the continousintegration1 project in visual studio code
+&lt;p&gt;Open the continuousintegration1 project in visual studio code
 When it prompt you to create .gitignore file, say yes. (This creates a .gitignore file and puts the line “node&lt;em&gt;modules” inside it). This prevents the contents of the node&lt;/em&gt;modules folder from being checked into Github.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;
       &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;npx cypress &lt;span class=&quot;token function&quot;&gt;open&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -134,7 +134,7 @@ When it prompt you to create .gitignore file, say yes. (This creates a .gitignor
 &lt;h3&gt;Create .circleci folder and cirlce.yml file&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;mkdir .circleci (under the continousintegration1 folder)&lt;/p&gt;
+&lt;p&gt;mkdir .circleci (under the continuousintegration1 folder)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;create a file config.yml inside the .circleci folder&lt;/p&gt;
@@ -159,7 +159,7 @@ jobs:
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;### Commit and push the project to Github
 login to github.com
-create a repository  continousintegration1
+create a repository  continuousintegration1
 
 ```bash
 git remote add origin https://github.com/swiftparrot/continousintegration1.git 
@@ -170,7 +170,7 @@ git push -u origin&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;h3&gt;Configure CircleCI&lt;/h3&gt;
 &lt;p&gt;Login to circleci.com with your github credentials
-&lt;code class=&quot;language-text&quot;&gt;Follow&lt;/code&gt; the project continousintegration1
+&lt;code class=&quot;language-text&quot;&gt;Follow&lt;/code&gt; the project continuousintegration1
 Click ‘Start Build’&lt;/p&gt;
 &lt;p&gt;
   &lt;a
